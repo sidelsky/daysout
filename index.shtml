@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+  <link rel="stylesheet" href="css/screen.css">
+  <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+</head>
+<body>
+  <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
+
+  <!--
+  data-bottom-top="opacity:0; transform:translateY(-60px)"
+  data-top-top="opacity:1; transform:translateY(0px)"
+  data-top-bottom="opacity:0; transform:translateY(60px)"
+-->
+
+<div id="progress-bar"
+data-0="width:0%;"
+data-end="width:100%"
+></div>
+
+<!-- Content here -->
+<header class="main-header"
+data-top-top="background-position:center 0px;"
+data-top-bottom="background-position:center 100px;"
+>
+<div class="main-header_inner">
+  <div class="days-out-logo">
+    <div class="days-out-logo_inner">
+      <a href="/">
+        <img src="img/base/days-out-logo.png" alt="National Days Out" class="logo">
+      </a>
+    </div>
+  </div>
+  <!-- Sign in -->
+  <div class="sign-in">
+    <ul class="tabs">
+      <li class="active">
+        <div>
+          <a href="javascript:void(0)">Sign in</a>
+        </div>
+      </li>
+      <li class="inactive">
+        <div>
+          <a href="#">Tour site</a>
+        </div>
+      </li>
+    </ul>
+    <div class="sign-in_inner narrow inner-padding">
+      <div class="sign-in_inner__container">
+        <h1>Welcome, your day out is waiting!</h1>
+        <form action="" name="code-detail" id="sigin-in_form">
+          <input type="text" placeholder="Please enter your code here" name="code" id="code">
+          <input type="image" src="img/base/submit.png" name="Submit" id="submit">
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- / Sign in -->
+</div>
+</header>
+
+<section class="how-it-works" id="steps">
+  <div class="content-inner inner-padding">
+    <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
+  </div>
+
+  <div class="small-titles inner-padding">
+    <h3>How it works - Booking your day out is simple</h3>
+  </div>
+
+  <ul class="content-inner steps inner-padding">
+    <li class="search">
+      <div class="inner">
+        <i>
+          <img src="img/icons/search.png" alt="Search"
+          data-bottom-top="opacity:0; transform:translateY(-90px)"
+          data-top-top="opacity:1; transform:translateY(0px)"
+          data-anchor-target="#steps"
+          >
+        </i>
+        <h1>Search</h1>
+        <p>from a list of Days Out with fantastic deals on offer</p>
+      </div>
+      <div class="arrow-right"></div>
+    </li>
+    <li class="choose">
+      <div class="inner">
+        <i>
+          <img src="img/icons/choose.png" alt="Choose"
+          data-bottom-top="opacity:0; transform:translateY(-60px)"
+          data-top-top="opacity:1; transform:translateY(0px)"
+          data-anchor-target="#steps"
+          >
+        </i>
+        <h1>Choose</h1>
+        <p>your experience from 1000’s of days out </p>
+      </div>
+      <div class="arrow-right"></div>
+    </li>
+    <li class="enjoy">
+      <div class="inner">
+        <i>
+          <img src="img/icons/enjoy.png" alt="Enjoy"
+          data-bottom-top="opacity:0; transform:translateY(-30px)"
+          data-top-top="opacity:1; transform:translateY(0px)"
+          data-anchor-target="#steps"
+          >
+        </i>
+        <h1>Enjoy</h1>
+        <p>show your Days Out card at the venue to redeem</p>
+      </div>
+      <div class="arrow-right"></div>
+    </li>
+  </ul>
+</section>
+
+<section class="search-container">
+  <div class="content-inner inner-padding">
+    <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
+
+    <form action="" class="search-select">
+      <ul>
+        <li class="region">
+          <select title="Basic example" multiple="multiple" name="example-basic" size="5">
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+            <option value="option4">Option 4</option>
+            <option value="option5">Option 5</option>
+            <option value="option6">Option 6</option>
+            <option value="option7">Option 7</option>
+            <option value="option8">Option 8</option>
+            <option value="option9">Option 9</option>
+            <option value="option10">Option 10</option>
+            <option value="option11">Option 11</option>
+            <option value="option12">Option 12</option>
+          </select>
+        </li>
+        <li class="county">
+          <select title="Basic example" multiple="multiple" name="example-basic" size="5">
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+            <option value="option4">Option 4</option>
+            <option value="option5">Option 5</option>
+            <option value="option6">Option 6</option>
+            <option value="option7">Option 7</option>
+            <option value="option8">Option 8</option>
+            <option value="option9">Option 9</option>
+            <option value="option10">Option 10</option>
+            <option value="option11">Option 11</option>
+            <option value="option12">Option 12</option>
+          </select>
+        </li>
+        <li class="activity">
+          <select title="Basic example" multiple="multiple" name="example-basic" size="5">
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+            <option value="option4">Option 4</option>
+            <option value="option5">Option 5</option>
+            <option value="option6">Option 6</option>
+            <option value="option7">Option 7</option>
+            <option value="option8">Option 8</option>
+            <option value="option9">Option 9</option>
+            <option value="option10">Option 10</option>
+            <option value="option11">Option 11</option>
+            <option value="option12">Option 12</option>
+          </select>
+        </li>
+        <li>
+          <!-- <input type="submit" value="Submit"> -->
+          <button id="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button">
+            <span class="ui-button-text">Submit</span>
+          </button>
+        </li>
+      </ul>
+    </form>
+
+  </div>
+</section>
+
+<section class="slick-slider-container">
+  <div class="partners">
+
+    <!-- Slide -->
+    <div class="slide">
+      <div class="inner">
+        <a href="/" class="w50 first">
+          <div class="slider-content-container">
+            <h4>Lorem ipsum dolor sit amet mollitia odio earum neque</h4>
+            <p>Excepturi quae quod velit mollitia odio earum neque porem ipsum dolor sit amet.</p>
+          </div>
+          <img src="http://dummyimage.com/800x600/4d494d/4d494d.gif&text=+image" alt="placeholder+image" class="slider-image">
+        </a>
+        <a href="/" class="w50 last">
+          <div class="slider-content-container">
+            <h4>Lorem ipsum dolor sit amet mollitia odio earum neque</h4>
+            <p>Excepturi quae quod velit mollitia odio earum neque porem ipsum dolor sit amet.</p>
+          </div>
+          <img src="http://dummyimage.com/800x600/4d494d/4d494d.gif&text=+image" alt="placeholder+image" class="slider-image">
+        </a>
+        <a href="/" class="w33 first">
+          <div class="slider-content-container">
+            <h4>Lorem ipsum dolor sit amet mollitia odio earum neque</h4>
+            <p>Excepturi quae quod velit mollitia odio earum neque porem ipsum dolor sit amet.</p>
+          </div>
+          <img src="http://dummyimage.com/800x600/4d494d/4d494d.gif&text=+image" alt="placeholder+image" class="slider-image">
+        </a>
+        <a href="/" class="w33">
+          <div class="slider-content-container">
+            <h4>Lorem ipsum dolor sit amet mollitia odio earum neque</h4>
+            <p>Excepturi quae quod velit mollitia odio earum neque porem ipsum dolor sit amet.</p>
+          </div>
+          <img src="http://dummyimage.com/800x600/4d494d/4d494d.gif&text=+image" alt="placeholder+image" class="slider-image">
+        </a>
+        <a href="/" class="w33 last">
+          <div class="slider-content-container">
+            <h4>Lorem ipsum dolor sit amet mollitia odio earum neque</h4>
+            <p>Excepturi quae quod velit mollitia odio earum neque porem ipsum dolor sit amet.</p>
+          </div>
+          <img src="http://dummyimage.com/800x600/4d494d/4d494d.gif&text=+image" alt="placeholder+image" class="slider-image">
+        </a>
+      </div>
+    </div>
+    <!-- / Slide -->
+
+    <!-- Slide -->
+    <div class="slide">
+      <div class="inner">
+      <a href="/" class="w33 first">
+          <div class="slider-content-container">
+            <h4>Lorem ipsum dolor sit amet mollitia odio earum neque</h4>
+            <p>Excepturi quae quod velit mollitia odio earum neque porem ipsum dolor sit amet.</p>
+          </div>
+          <img src="http://dummyimage.com/800x600/4d494d/4d494d.gif&text=+image" alt="placeholder+image" class="slider-image">
+        </a>
+        <a href="/" class="w33">
+          <div class="slider-content-container">
+            <h4>Lorem ipsum dolor sit amet mollitia odio earum neque</h4>
+            <p>Excepturi quae quod velit mollitia odio earum neque porem ipsum dolor sit amet.</p>
+          </div>
+          <img src="http://dummyimage.com/800x600/4d494d/4d494d.gif&text=+image" alt="placeholder+image" class="slider-image">
+        </a>
+        <a href="/" class="w33 last">
+          <div class="slider-content-container">
+            <h4>Lorem ipsum dolor sit amet mollitia odio earum neque</h4>
+            <p>Excepturi quae quod velit mollitia odio earum neque porem ipsum dolor sit amet.</p>
+          </div>
+          <img src="http://dummyimage.com/800x600/4d494d/4d494d.gif&text=+image" alt="placeholder+image" class="slider-image">
+        </a>
+        <a href="/" class="w50 first">
+          <div class="slider-content-container">
+            <h4>Lorem ipsum dolor sit amet mollitia odio earum neque</h4>
+            <p>Excepturi quae quod velit mollitia odio earum neque porem ipsum dolor sit amet.</p>
+          </div>
+          <img src="http://dummyimage.com/800x600/4d494d/4d494d.gif&text=+image" alt="placeholder+image" class="slider-image">
+        </a>
+        <a href="/" class="w50 last">
+          <div class="slider-content-container">
+            <h4>Lorem ipsum dolor sit amet mollitia odio earum neque</h4>
+            <p>Excepturi quae quod velit mollitia odio earum neque porem ipsum dolor sit amet.</p>
+          </div>
+          <img src="http://dummyimage.com/800x600/4d494d/4d494d.gif&text=+image" alt="placeholder+image" class="slider-image">
+        </a>
+      </div>
+    </div>
+    <!-- / Slide -->
+
+  </div>
+</section>
+
+
+<section class="logos-container">
+  <div class="logos">
+    <div>
+      <img src="img/logos/disneyland.png" alt="placeholder+image" class="slider-image">
+    </div>
+    <div>
+      <img src="img/logos/nigloland.png" alt="placeholder+image" class="slider-image">
+    </div>
+    <div>
+      <img src="img/logos/parcasterix.png" alt="placeholder+image" class="slider-image">
+    </div>
+    <div>
+      <img src="img/logos/puydufou.png" alt="placeholder+image" class="slider-image">
+    </div>
+    <div>
+      <img src="img/logos/disneyland.png" alt="placeholder+image" class="slider-image">
+    </div>
+    <div>
+      <img src="img/logos/nigloland.png" alt="placeholder+image" class="slider-image">
+    </div>
+    <div>
+      <img src="img/logos/parcasterix.png" alt="placeholder+image" class="slider-image">
+    </div>
+    <div>
+      <img src="img/logos/puydufou.png" alt="placeholder+image" class="slider-image">
+    </div>
+  </div>
+</section>
+
+<footer class="footer-container">
+  <div class="content-inner inner-padding">
+    <div class="days-out-logo_inner">
+      <a href="/">
+        <img src="img/base/days-out-logo.png" alt="National Days Out" class="logo">
+      </a>
+    </div>
+    <nav>
+      <ul>
+        <li>
+          <a href="">FAQs</a>
+        </li>
+        <li>
+          <a href="">Join us</a>
+        </li>
+        <li>
+          <a href="">Contact us</a>
+        </li>
+        <li>
+          <a href="">Terms &amp; Conditions</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="copyright">
+      <p>&copy; Copyright 2015 TLC Marketing</p>
+      <a href="http://www.tlcmarketing.com/">
+        <img src="img/base/powered.png" alt="Powered by TLC Marketing">
+      </a>
+    </div>
+  </div>
+</footer>
+
+<!-- / End content here -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+
+<script src="js/jquery.skrollr.js"></script>
+<script src="js/jquery.slick.js"></script>
+<script src="js/jquery.ui.min.js"></script>
+<script src="js/jquery.multiselect.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>

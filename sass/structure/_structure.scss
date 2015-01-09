@@ -1,0 +1,458 @@
+/* .landing-container {
+	//@extend %bdr;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background: url(../img/landing-page-images/001.jpg) no-repeat center center;
+	background-size: cover;
+	.landing-container__inner {
+		
+	}
+	} */
+
+//@include span(4 at 9 of 12);
+
+/* .container {
+ @include container(80em);
+ @extend %bdr;
+ } */
+
+.inner-padding {
+ 	padding: 0 1.5em;
+	//@include rhythm(0, 4, 6, 0);
+	@include breakpoint($medium){
+		padding: 0 2em;
+	}
+}
+
+.main-header {
+	background: url(../img/header-image.jpg) no-repeat center center;
+	//background-size: cover;
+	@include rhythm(0, 0, 2, 0);
+	.main-header_inner {
+		@include container($max-width);
+		a {
+			display: block;
+		}
+	}
+	@inc breakpoint($medium){
+		@include rhythm(0, 0, 12, 0);
+	}
+}
+
+.days-out-logo {
+	//@extend %bdr;
+	@include container;
+	@include rhythm(0, 0, 0, 4);
+	.days-out-logo_inner {
+		@include span(12 of 12);
+		a {
+			width: 200px;
+			@include breakpoint($medium) {
+				width: 300px;
+			}
+			.logo {
+				width: 100%;
+			}
+		}
+	}
+}
+
+.sign-in {
+	@include container;
+	@include clearfix;
+	//@extend %bdr;
+	.tabs {
+		@include container;
+		////@extend %bdr;
+		@include clearfix;
+		@include span(12 of 12 );
+		li {
+			width: 100px;		  
+			height: 55px;
+			float: left;
+			text-align: center;
+			div {
+				@extend %vertical-align;
+				a {
+					display: block;
+				}
+			}
+			&.active {
+				margin-right: 0;
+				a {
+					cursor: default;
+				}
+			}
+			&.inactive {
+				margin-left: 0;
+				a {
+					cursor: pointer;
+				}
+			}
+			@include breakpoint($medium){
+				width: 150px;
+			}
+			@include breakpoint($medium){
+				height: 65px;
+			}
+		}
+	}
+	.sign-in_inner {
+		@include span(12 of 12);
+		.sign-in_inner__container {
+			@include rhythm(0, 4, 5, 0);
+			form {
+				@include clearfix;
+				input {
+					vertical-align: top;
+					float: left;
+				}
+				input[type="text"] {
+					height: 52px;
+					width: 80%;
+					@include breakpoint($medium){
+					}
+				}
+				input[type="image"] {
+					width: 48px;
+					&:hover {
+					}
+				}
+			}
+		}
+	}
+}
+
+.how-it-works {
+	background: url(../img/base/pattern.jpg) no-repeat center center;
+	min-height: 300px;
+	@include rhythm(0, 3, 3, 0);
+}
+
+.content-inner {
+	//@extend %bdr;
+	@include container($max-width);
+	@include rhythm(0, 2, 2, 0);
+	h2 {
+		@include rhythm(0, 0, 0, 0);
+		@include span(12 of 12);
+		color: $white;
+	}
+	h3 {
+		@include rhythm(0, 0, 0, 0);
+		@include span(12 of 12);
+		color: $white;
+		@include adjust-font-size-to(18px, 2);
+		font-family: 'din_lightregular';
+		text-transform: uppercase;
+	}
+}
+
+.small-titles {
+	@include container($max-width);
+	h3 {
+		@include rhythm(0, 2, 0, 0);
+		@include span(12 of 12);
+	}
+}
+
+.arrow-right {
+	width: 0; 
+	height: 0;
+	position: absolute;
+	@extend %vertical-align;
+	z-index: 3;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	border-left: 15px solid green;
+	right: -15px;
+	@include breakpoint($small) {
+		border-top: 45px solid transparent;
+		border-bottom: 45px solid transparent;
+		border-left: 45px solid green;
+		right: -45px;
+	}
+	@include breakpoint($medium) {
+		border-top: 60px solid transparent;
+		border-bottom: 60px solid transparent;
+		border-left: 60px solid green;
+		right: -60px;
+	}
+}
+
+.steps {
+	li {
+		position: relative;
+		//@extend %bdr;
+		@include span(4 of 12);
+		height: 0;
+		padding-bottom: 31.25%;
+		h1 {
+			//@include adjust-font-size-to(36px, 2);
+			font-family: 'gotham_lightregular';
+			@include fittext($min-media: 320px, $max-media: 1900px, $min-font-size: 18px, $max-font-size: 36px, $media-increment: 100, $font-increment: 2.5, $ratio: 1, $round: false);		
+		}
+		&.search {
+			.inner {
+				
+			}
+			.arrow-right { 
+			}
+		}
+		&.choose {
+			.inner {
+				
+			}
+			.arrow-right {
+			}
+		}
+		&.enjoy {
+			.inner {
+				
+			}
+			.arrow-right {
+				display: none; 
+			}
+		}
+	}
+	.inner {
+		margin-top: 20%;
+		margin-bottom: 20%;
+		text-align: center;
+		position: relative;
+		z-index: 0;
+		//@extend %bdr;
+		i {
+			img {
+				margin: 0 auto;
+				width: 40%;
+			}
+		}
+		p {
+			display: none;
+			padding: 0 10%;
+			@include breakpoint($medium) {
+				display: block;
+			}
+		}
+	}
+}
+
+.footer-container,
+.search-container {
+	background-color: $tertiary-color;
+	@include rhythm(0, 3, 3, 0);
+}
+
+.search-select {
+	@include rhythm(0, 2, 2, 0);
+	@include span(12 of 12);
+	ul {
+		@include container($max-width);
+		li {
+			@include rhythm(0, .4, .4, 0);
+			@include breakpoint($medium){
+				@include span(3 of 12 );
+			}
+			&:first-child{
+				 margin-left: 0px;
+			}
+			&:last-child{
+				 margin-right: 0px;
+			}
+		}
+	}
+}
+
+.search-select ul li input[type="submit"],
+.search-select ul li button {
+	width: 100%;
+}
+
+
+.slick-slider-container {
+	@include rhythm(0, 0, 0, 2);
+	overflow: hidden;
+	@include clearfix;
+	@include breakpoint($medium){
+		@include rhythm(0, 0, 0, 0);
+	}
+	.partners {
+		.slick-slide {
+			//@extend %bdr;
+			//@include opacity(0.5);
+			//@include transition(opacity 1s ease-in-out);
+			background: $white;
+			&.slick-active {
+				//@include opacity(1);
+				//@include transition(opacity 1s ease-in-out);
+			}
+			.inner {
+				//@extend %bdr;
+				@include clearfix;
+				overflow: hidden;
+				.w50, .w33 {
+					float: left;
+					overflow: hidden;
+					position: relative;
+					padding: .5em 0em 0em .5em;
+					@include breakpoint($large){
+						padding: 1em 0em 0em 1em;	
+					}
+					.slider-image {
+						width: 100%;
+						position: relative;
+						z-index: 1;
+					}
+				}
+				.w50 {
+					//@extend %bdr;
+					width: 50%;
+					&.first {
+						margin-left: 0px;
+					}
+					&.last {
+						margin-right: 0px;
+					}
+				}
+				.w33 {
+					//@extend %bdr;
+					width: 33.333%;
+					&.first {
+						margin-left: 0px;
+					}
+					&.last {
+						margin-right: 0px;
+					}
+				}
+			}
+		}
+		//Mobile build
+		.slide {
+			.inner {
+				a {
+					position: relative;
+					//@extend %bdr;
+					display: block;
+					padding: .5em .5em 0 .5em;
+					//padding: .5em 0em 0em .5em;
+				}
+			}
+		}
+	}
+}
+
+
+.slider-content-container {
+	width: 100%;
+	z-index: 2;
+	position: absolute;
+	color: $white;
+	bottom: 0;
+	padding: 1em 2em .5em 1em;
+	@include box-sizing(border-box);
+	@include breakpoint($medium){
+			padding: 1em 2em 0em 1em;
+		}
+	h4 {
+		font-family: 'gotham_lightregular';
+		@include adjust-font-size-to(21px, 2);
+		@include rhythm(0, 0, 0, 1);
+		display: block;
+		@include breakpoint($large){
+			@include adjust-font-size-to(20px, 2);
+			font-family: 'gotham_mediumregular';
+		}
+	}
+	p {
+		font-family: 'gotham_lightregular';
+		@include adjust-font-size-to(16px, 1.8);
+		@include rhythm(0, 0, 0, 1);
+		display: block;
+	}
+}
+
+.logos-container {
+	//@extend %bdr;
+	@include container($max-width);
+	overflow: hidden;
+	.logos {
+		.slick-list {
+			.slick-track {
+				.slick-slide {
+					.slider-image {
+						width: 100%;
+					}
+				}
+			}
+		}
+	}
+}
+
+.slider-image {
+	width: 100%;
+	//margin: 2em;
+}
+
+.footer-container {
+	font-family: 'gotham_lightregular';
+	color: $white;
+	.content-inner {
+		.days-out-logo_inner {
+			@include breakpoint($medium){
+				@include span(2.2);
+			}
+			.logo {
+				width: 100%;
+			}
+		}
+		nav {
+			@include rhythm(0, 0, 0, 4);
+			@include clearfix;
+			@include breakpoint($medium){
+				@include span(4.8);
+				@include rhythm(0, 6, 0, 0);
+			}
+			ul {
+				@include adjust-font-size-to(16px, 1.8);
+				li {
+					float: left;
+					margin-right: 1em;
+					a {
+						color: $white;
+						text-decoration: none;
+						&:hover {
+							text-decoration: underline;
+						}
+					}
+				}
+			}
+		}
+		.copyright {
+			@include clearfix;
+			@include breakpoint($medium){
+				@include span(5);
+				@include rhythm(0, 6, 0, 0);
+				text-align: right;
+			}
+			p {
+				@include rhythm(0, 0, 0, 1);
+			}
+			a {
+				display: block;
+				width: 100%;
+				@include breakpoint($medium){
+					text-align: right;
+				}
+				img {
+					@include breakpoint($medium){
+						float: right;
+					}
+				}
+			}
+		}
+	}
+}

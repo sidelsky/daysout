@@ -1,0 +1,119 @@
+ .days-out-logo {
+	a {
+		background-color: $primary-color;
+	}
+}
+
+.sign-in {
+	.tabs {
+		@include clearfix;
+		li {
+				background-color: rgba($secondary-color, .9);
+			a {
+				color: $white;
+				color: rgba($white, .7);
+				text-decoration: none;				
+				font-family: 'gotham_lightregular';
+				@include adjust-font-size-to(18px, 2);
+				@include breakpoint($medium){
+					@include adjust-font-size-to(24px, 2);
+				}
+			}
+			&.active {
+				background-color: rgba($primary-color, .9);
+				a {
+					color: rgba($white, 1);
+				}
+			}
+		}
+	}
+	.sign-in_inner {
+		background-color: rgba($primary-color, .9);
+		.sign-in_inner__container {
+			color: $white;
+			form {
+				input {
+				}
+				input[type="text"] {
+					border: none;
+					background-color: $white;
+					@include adjust-font-size-to(14px);
+					@include breakpoint($medium){
+						@include adjust-font-size-to(24px);
+					}
+				}
+				input[type="image"] {
+					@include opacity(.8);
+					&:hover {
+						@include opacity(1);
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+.steps {
+	li {
+		h1 {
+			font-family: 'gotham_lightregular';
+			@include fittext($min-media: 320px, $max-media: 1900px, $min-font-size: 18px, $max-font-size: 36px, $media-increment: 100, $font-increment: 2.5, $ratio: 1, $round: false);		
+		}
+		&.search {
+			color: $tertiary-color;
+			background-color: $light-grey;
+			.inner {
+				
+			}
+			.arrow-right {
+				border-left-color: $light-grey; 
+			}
+		}
+		&.choose {
+			color: $white;
+			background-color: lighten($tertiary-color, 15%);
+			.inner {
+				
+			}
+			.arrow-right {
+				border-left-color: lighten($tertiary-color, 15%); 
+			}
+		}
+		&.enjoy {
+			color: $white;
+			background-color: $tertiary-color;
+			.inner {
+				
+			}
+			.arrow-right {
+				border-left-color: $tertiary-color;
+				display: none; 
+			}
+		}
+	}
+	.inner {
+		i {
+			img {
+			}
+		}
+		p {
+			font-family: 'gotham_lightregular';
+			@include adjust-font-size-to(24px, 3);
+			@include breakpoint($medium) {
+				@include adjust-font-size-to(18px, 2);
+			}
+		}
+	}
+}
+
+
+.small-titles {
+	h3 {
+		color: $white;
+		@include adjust-font-size-to(18px, 2);
+		font-family: 'din_lightregular';
+		text-transform: uppercase;
+	}
+}
