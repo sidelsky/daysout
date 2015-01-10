@@ -205,35 +205,40 @@ data-top-bottom="background-position:center 100px;"
             <h4>Lorem ipsum dolor sit amet mollitia odio earum neque</h4>
             <p>Excepturi quae quod velit mollitia odio earum neque porem ipsum dolor sit amet.</p>
           </div>
-          <img src="http://dummyimage.com/800x600/4d494d/4d494d.gif&text=+image" alt="placeholder+image" class="slider-image">
+            <div class="slider-image-wrapper"></div>
+            <img src="img/days_out/001.jpg" alt="placeholder+image" class="slider-image">
         </a>
         <a href="/" class="w50 last">
           <div class="slider-content-container">
             <h4>Lorem ipsum dolor sit amet mollitia odio earum neque</h4>
             <p>Excepturi quae quod velit mollitia odio earum neque porem ipsum dolor sit amet.</p>
           </div>
-          <img src="http://dummyimage.com/800x600/4d494d/4d494d.gif&text=+image" alt="placeholder+image" class="slider-image">
+          <div class="slider-image-wrapper"></div>
+            <img src="img/days_out/002.jpg" alt="placeholder+image" class="slider-image">
         </a>
         <a href="/" class="w33 first">
           <div class="slider-content-container">
             <h4>Lorem ipsum dolor sit amet mollitia odio earum neque</h4>
             <p>Excepturi quae quod velit mollitia odio earum neque porem ipsum dolor sit amet.</p>
           </div>
-          <img src="http://dummyimage.com/800x600/4d494d/4d494d.gif&text=+image" alt="placeholder+image" class="slider-image">
+          <div class="slider-image-wrapper"></div>
+            <img src="http://dummyimage.com/800x600/4d494d/4d494d.gif&text=+image" alt="placeholder+image" class="slider-image">
         </a>
         <a href="/" class="w33">
           <div class="slider-content-container">
             <h4>Lorem ipsum dolor sit amet mollitia odio earum neque</h4>
             <p>Excepturi quae quod velit mollitia odio earum neque porem ipsum dolor sit amet.</p>
           </div>
-          <img src="http://dummyimage.com/800x600/4d494d/4d494d.gif&text=+image" alt="placeholder+image" class="slider-image">
+          <div class="slider-image-wrapper"></div>
+            <img src="http://dummyimage.com/800x600/4d494d/4d494d.gif&text=+image" alt="placeholder+image" class="slider-image">
         </a>
         <a href="/" class="w33 last">
           <div class="slider-content-container">
             <h4>Lorem ipsum dolor sit amet mollitia odio earum neque</h4>
             <p>Excepturi quae quod velit mollitia odio earum neque porem ipsum dolor sit amet.</p>
           </div>
-          <img src="http://dummyimage.com/800x600/4d494d/4d494d.gif&text=+image" alt="placeholder+image" class="slider-image">
+          <div class="slider-image-wrapper"></div>
+            <img src="http://dummyimage.com/800x600/4d494d/4d494d.gif&text=+image" alt="placeholder+image" class="slider-image">
         </a>
       </div>
     </div>
@@ -247,35 +252,40 @@ data-top-bottom="background-position:center 100px;"
             <h4>Lorem ipsum dolor sit amet mollitia odio earum neque</h4>
             <p>Excepturi quae quod velit mollitia odio earum neque porem ipsum dolor sit amet.</p>
           </div>
-          <img src="http://dummyimage.com/800x600/4d494d/4d494d.gif&text=+image" alt="placeholder+image" class="slider-image">
+          <div class="slider-image-wrapper"></div>
+            <img src="http://dummyimage.com/800x600/4d494d/4d494d.gif&text=+image" alt="placeholder+image" class="slider-image">
         </a>
         <a href="/" class="w33">
           <div class="slider-content-container">
             <h4>Lorem ipsum dolor sit amet mollitia odio earum neque</h4>
             <p>Excepturi quae quod velit mollitia odio earum neque porem ipsum dolor sit amet.</p>
           </div>
-          <img src="http://dummyimage.com/800x600/4d494d/4d494d.gif&text=+image" alt="placeholder+image" class="slider-image">
+          <div class="slider-image-wrapper"></div>
+            <img src="http://dummyimage.com/800x600/4d494d/4d494d.gif&text=+image" alt="placeholder+image" class="slider-image">
         </a>
         <a href="/" class="w33 last">
           <div class="slider-content-container">
             <h4>Lorem ipsum dolor sit amet mollitia odio earum neque</h4>
             <p>Excepturi quae quod velit mollitia odio earum neque porem ipsum dolor sit amet.</p>
           </div>
-          <img src="http://dummyimage.com/800x600/4d494d/4d494d.gif&text=+image" alt="placeholder+image" class="slider-image">
+          <div class="slider-image-wrapper"></div>
+            <img src="http://dummyimage.com/800x600/4d494d/4d494d.gif&text=+image" alt="placeholder+image" class="slider-image">
         </a>
         <a href="/" class="w50 first">
           <div class="slider-content-container">
             <h4>Lorem ipsum dolor sit amet mollitia odio earum neque</h4>
             <p>Excepturi quae quod velit mollitia odio earum neque porem ipsum dolor sit amet.</p>
           </div>
-          <img src="http://dummyimage.com/800x600/4d494d/4d494d.gif&text=+image" alt="placeholder+image" class="slider-image">
+          <div class="slider-image-wrapper"></div>
+            <img src="http://dummyimage.com/800x600/4d494d/4d494d.gif&text=+image" alt="placeholder+image" class="slider-image">
         </a>
         <a href="/" class="w50 last">
           <div class="slider-content-container">
             <h4>Lorem ipsum dolor sit amet mollitia odio earum neque</h4>
             <p>Excepturi quae quod velit mollitia odio earum neque porem ipsum dolor sit amet.</p>
           </div>
-          <img src="http://dummyimage.com/800x600/4d494d/4d494d.gif&text=+image" alt="placeholder+image" class="slider-image">
+          <div class="slider-image-wrapper"></div>
+            <img src="http://dummyimage.com/800x600/4d494d/4d494d.gif&text=+image" alt="placeholder+image" class="slider-image">
         </a>
       </div>
     </div>

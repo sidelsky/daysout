@@ -298,14 +298,21 @@
 					float: left;
 					overflow: hidden;
 					position: relative;
-					padding: .5em 0em 0em .5em;
+					//padding: .2em;
+					padding: .2em;
+					@include transition(all .6s ease-in-out);
 					@include breakpoint($large){
-						padding: 1em 0em 0em 1em;	
+						padding: .5em;
 					}
 					.slider-image {
 						width: 100%;
 						position: relative;
 						z-index: 1;
+					}
+					&.active {
+						@include transition(all .2s ease-in-out);
+						@include opacity(.6);
+						//background-color: $black;
 					}
 				}
 				.w50 {
@@ -337,25 +344,55 @@
 					position: relative;
 					//@extend %bdr;
 					display: block;
-					padding: .5em .5em 0 .5em;
-					//padding: .5em 0em 0em .5em;
+					padding: .5em;
 				}
 			}
 		}
 	}
 }
 
+.slider-image-wrapper { 
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	height: auto;
+	width: auto;
+	background: url(../img/base/shading.png) left bottom no-repeat;
+	//margin: .5em .5em 0em .5em;
+	margin: .5em;
+	@include opacity(1);
+	@include transition(all .6s ease-in-out);
+	@include breakpoint($small){
+		margin: .2em;
+	}
+	@include breakpoint($medium){
+		margin: .2em;
+		
+	}
+	@include breakpoint($large){
+		//margin: 1em 0em 0em 1em;
+		margin: .5em;	
+	}
+	/* &.active {
+		@include transition(all .2s ease-in-out);
+		@include opacity(.6);
+		background-color: $black;
+	} */
+}
 
 .slider-content-container {
 	width: 100%;
-	z-index: 2;
+	z-index: 3;
 	position: absolute;
 	color: $white;
 	bottom: 0;
 	padding: 1em 2em .5em 1em;
-	@include box-sizing(border-box);
+	@include text-shadow(rgba($black, 1) 1px 1px 0);
 	@include breakpoint($medium){
-			padding: 1em 2em 0em 1em;
+			//padding: .5em;
 		}
 	h4 {
 		font-family: 'gotham_lightregular';
@@ -375,6 +412,11 @@
 	}
 }
 
+.slider-image {
+	width: 100%;
+	//margin: 2em;
+}
+
 .logos-container {
 	//@extend %bdr;
 	@include container($max-width);
@@ -385,6 +427,7 @@
 				.slick-slide {
 					.slider-image {
 						width: 100%;
+						//@include opacity(0.5);
 					}
 				}
 			}
@@ -392,10 +435,7 @@
 	}
 }
 
-.slider-image {
-	width: 100%;
-	//margin: 2em;
-}
+
 
 .footer-container {
 	font-family: 'gotham_lightregular';
