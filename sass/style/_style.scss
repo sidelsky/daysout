@@ -100,9 +100,11 @@
 		}
 		p {
 			font-family: 'gotham_lightregular';
-			@include adjust-font-size-to(24px, 3);
+			//@include adjust-font-size-to(24px, 3);
+			line-height: 125%;
+			@include fittext($min-media: 768px, $max-media: 1280px, $min-font-size: 12px, $max-font-size: 20px, $media-increment: 100, $font-increment: 2.5, $ratio: 1, $round: false);		
 			@include breakpoint($medium) {
-				@include adjust-font-size-to(18px, 2);
+				//@include adjust-font-size-to(18px, 2);
 			}
 		}
 	}
@@ -115,5 +117,51 @@
 		@include adjust-font-size-to(18px, 2);
 		font-family: 'din_lightregular';
 		text-transform: uppercase;
+	}
+}
+
+
+.footer-container {
+	font-family: 'gotham_lightregular';
+	color: $white;
+	.content-inner {
+		.days-out-logo_inner {
+			@include breakpoint($medium){
+			}
+			.logo {
+			}
+		}
+		nav {
+			@include breakpoint($medium){
+			}
+			ul {
+				@include adjust-font-size-to(16px, 1.8);
+				li {
+					a {
+						color: $white;
+						&:hover {
+							text-decoration: underline;
+						}
+					}
+				}
+			}
+		}
+		.copyright {
+			@include breakpoint($medium){
+				text-align: right;
+			}
+			p {
+				@include rhythm(0, 0, 0, 1);
+			}
+			a {
+				@include breakpoint($medium){
+					text-align: right;
+				}
+				img {
+					@include breakpoint($medium){
+					}
+				}
+			}
+		}
 	}
 }

@@ -112,16 +112,132 @@ function do_logo_slider(){
     }
   ]
   });
+};
+
+function do_image_slider(){
+//Logos
+  $('.image-gallery').slick({
+    infinite: true,
+    dots: false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    centerMode: true,
+    centerPadding: '150px',
+    responsive: [
+  {
+      breakpoint: 1024,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '0px',
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        centerPadding: '80px',
+      }
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '0px',
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '0px',
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      }
+    }
+  ]
+  });
+};
+
+
+function do_google_map(){
+//Google maps
+var map;
+var myMap = new google.maps.LatLng(51.514753, -0.136690);
+var image;
+
+var stylez = [
+{
+  featureType: "all",
+  elementType: "all",
+  stylers: [/*
+  { "saturation": -50 },
+  { "hue": "#8f9d8d" },
+  { "weight": 1 }*/]
+}
+];
+
+var mapOptions = {
+    zoom: 13,
+    center: myMap,
+    mapTypeControl:false,
+    mapTypeControlOptions: {
+        mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'grey']
+    },
+    // zoomControl: true,
+    // zoomControlOptions: {
+    //     style: google.maps.ZoomControlStyle.SMALL,
+    //     position: google.maps.ControlPosition.LEFT_CENTER
+    // },
+    // zoomControl: false,
+    // scaleControl: false,
+    // scrollwheel: false,
+    // draggable: false,
+    // streetViewControl: false,
+    // disableDoubleClickZoom: true,
+    // mapTypeControl:false
+    panControl: true,
+    zoomControl: true,
+    mapTypeControl: false,
+    scaleControl: false,
+    scrollwheel: false,
+    streetViewControl: false,
+    draggable: true,
+    overviewMapControl: false
+};
+
+map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
+
+var mapType = new google.maps.StyledMapType(stylez, { name:"Grayscale" });    
+    map.mapTypes.set('grey', mapType);
+    map.setMapTypeId('grey');
+
+//Map Marker 
+var image = '../img/map-markers/blue-balloon.png';
+var myLatLng = myMap;
+var beachMarker = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
+    icon: image
+});
+
 }
 
 $(document).ready(function(){
 
   //Call functions 
+  do_google_map();
   do_logo_slider();
+  do_image_slider();
+
 
   if(windowWidth > 600){
      do_slick();
     }
+
+  $( window ).resize(function() {
+    do_google_map();
+  });
  
 
   //do_check_window();

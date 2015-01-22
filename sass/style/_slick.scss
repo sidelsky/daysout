@@ -199,6 +199,18 @@
     }
   }
 }
+
+
+.draggable {
+  cursor: grab;
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+ &:active {
+  cursor: grabbing;
+  cursor: -webkit-grabbing;
+  cursor: -moz-grabbing;
+ }
+}
  
 
 .slick-dots li button:hover, .slick-dots li button:focus {

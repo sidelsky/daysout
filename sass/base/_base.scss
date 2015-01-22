@@ -203,7 +203,7 @@ h1, h2, h3, h4, h5 {
 }
 
 h1, h2 {
-	@include adjust-font-size-to(36px, 4);
+	@include adjust-font-size-to(36px, 3.5);
 	@include rhythm(0, 0, 0, 2);
 	font-family: 'gotham_lightregular';
 }

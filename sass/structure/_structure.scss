@@ -1,3 +1,10 @@
+#info {
+	position: fixed;
+	top: 0px;
+	z-index: 3000;
+	background: white;
+}
+
 /* .landing-container {
 	//@extend %bdr;
 	position: absolute;
@@ -19,7 +26,7 @@
  @extend %bdr;
  } */
 
-.inner-padding {
+ .inner-padding {
  	padding: 0 1.5em;
 	//@include rhythm(0, 4, 6, 0);
 	@include breakpoint($medium){
@@ -194,6 +201,7 @@
 			//@include adjust-font-size-to(36px, 2);
 			font-family: 'gotham_lightregular';
 			@include fittext($min-media: 320px, $max-media: 1900px, $min-font-size: 18px, $max-font-size: 36px, $media-increment: 100, $font-increment: 2.5, $ratio: 1, $round: false);		
+			margin-bottom: 2%;
 		}
 		&.search {
 			.inner {
@@ -258,10 +266,10 @@
 				@include span(3 of 12 );
 			}
 			&:first-child{
-				 margin-left: 0px;
+				margin-left: 0px;
 			}
 			&:last-child{
-				 margin-right: 0px;
+				margin-right: 0px;
 			}
 		}
 	}
@@ -270,6 +278,9 @@
 .search-select ul li input[type="submit"],
 .search-select ul li button {
 	width: 100%;
+	&:hover {
+		background-color: $secondary-color;
+	}
 }
 
 
@@ -380,40 +391,40 @@
 		@include transition(all .2s ease-in-out);
 		@include opacity(.6);
 		background-color: $black;
-	} */
-}
+		} */
+	}
 
-.slider-content-container {
-	width: 100%;
-	z-index: 3;
-	position: absolute;
-	color: $white;
-	bottom: 0;
-	padding: 1em 2em .5em 1em;
-	@include text-shadow(rgba($black, 1) 1px 1px 0);
-	@include breakpoint($medium){
+	.slider-content-container {
+		width: 100%;
+		z-index: 3;
+		position: absolute;
+		color: $white;
+		bottom: 0;
+		padding: 1em 2em .5em 1em;
+		@include text-shadow(rgba($black, 1) 1px 1px 0);
+		@include breakpoint($medium){
 			//padding: .5em;
 		}
-	h4 {
-		font-family: 'gotham_lightregular';
-		@include adjust-font-size-to(21px, 2);
-		@include rhythm(0, 0, 0, 1);
-		display: block;
-		@include breakpoint($large){
-			@include adjust-font-size-to(20px, 2);
-			font-family: 'gotham_mediumregular';
+		h4 {
+			font-family: 'gotham_lightregular';
+			@include adjust-font-size-to(21px, 2);
+			@include rhythm(0, 0, 0, 1);
+			display: block;
+			@include breakpoint($large){
+				@include adjust-font-size-to(20px, 2);
+				font-family: 'gotham_mediumregular';
+			}
+		}
+		p {
+			font-family: 'gotham_lightregular';
+			@include adjust-font-size-to(16px, 1.8);
+			@include rhythm(0, 0, 0, 1);
+			display: block;
 		}
 	}
-	p {
-		font-family: 'gotham_lightregular';
-		@include adjust-font-size-to(16px, 1.8);
-		@include rhythm(0, 0, 0, 1);
-		display: block;
-	}
-}
 
-.slider-image {
-	width: 100%;
+	.slider-image {
+		width: 100%;
 	//margin: 2em;
 }
 
@@ -438,8 +449,6 @@
 
 
 .footer-container {
-	font-family: 'gotham_lightregular';
-	color: $white;
 	.content-inner {
 		.days-out-logo_inner {
 			@include breakpoint($medium){
@@ -462,10 +471,8 @@
 					float: left;
 					margin-right: 1em;
 					a {
-						color: $white;
 						text-decoration: none;
 						&:hover {
-							text-decoration: underline;
 						}
 					}
 				}
@@ -476,7 +483,6 @@
 			@include breakpoint($medium){
 				@include span(5);
 				@include rhythm(0, 6, 0, 0);
-				text-align: right;
 			}
 			p {
 				@include rhythm(0, 0, 0, 1);
@@ -485,7 +491,6 @@
 				display: block;
 				width: 100%;
 				@include breakpoint($medium){
-					text-align: right;
 				}
 				img {
 					@include breakpoint($medium){
@@ -493,6 +498,162 @@
 					}
 				}
 			}
+		}
+	}
+}
+
+
+
+.template-header {
+	background: url(../img/base/pattern.jpg) no-repeat center center;
+	position: relative;
+	z-index: 1;
+	.inner {
+		@include clearfix;
+		//@extend %bdr;
+		.days-out-logo {
+			@include rhythm(0, 0, 0, 0);
+			.days-out-logo_inner {
+				width: 200px;
+				@include breakpoint($medium) {
+					width: 300px;
+				}
+			}
+		}
+	}
+}
+
+
+.inner-template-container {
+	font-family: 'gotham_lightregular';
+	//@extend %bdr;
+	position: relative;
+	min-height: 300px;
+	.content-section {
+		//padding-top: 300px;
+		padding-top: 227px;
+		z-index: 200;
+		position: relative;
+		.inner {
+			//@extend %bdr;
+		}
+	}
+}
+
+.featured-header-image {
+	//@extend %bdr;
+	@include clearfix;
+	position: absolute;
+	z-index: 0;
+	width: 100%;
+	.inner {
+		position: relative;
+		max-width: 100em;
+		height: 300px;
+		margin: 0 auto;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center 0px;
+		@include clearfix;
+		@include breakpoint($medium) {
+			background-size: inherit;
+			background-position: center -100px;
+		}
+	}
+}
+
+.content-section {
+	@include clearfix;
+	.left {
+		//@extend %bdr;
+		@include span(8 of 12);
+		.content-module {
+			@include rhythm(0, 0, 3, 0);
+			display: table;
+			.logo-container {
+				//@include span(4 of 12);
+				//width: 33.333%;
+				display: table-cell;
+				//@extend %bdr;
+				img {
+					max-width: 220px;
+				}
+			}
+			.detail-container {
+				display: table-cell;
+				vertical-align: bottom;
+				float: none;
+				//@extend %bdr;
+				padding-left: 1em;
+				h1 {
+					color: $primary-color;
+					@include rhythm(0, 0, 1, 0);
+				}
+			}
+		}
+		h2 {
+			@include adjust-font-size-to(30px, 3.5);
+			color: $primary-color;
+			@include rhythm(0, 0, 0, 3);
+		}
+		p {
+			@include adjust-font-size-to(20px, 2.8);
+			@include rhythm(0, 0, 0, 2);
+			color: $grey;
+		}
+	}
+	.right {
+		//@extend %bdr;
+		@include span(3 of 12);
+		@include push(1 of 12);
+		.inner-content {
+			@include rhythm(0, 0, 0, 5);
+			//margin-top: -130px;
+			#map_canvas {
+				width: 100%;
+				height: 293px;
+				//@extend %bdr;
+				background-color: $white;
+				@include rhythm(0, 0, 0, 1);
+			}
+		}
+	}
+		h3 {
+		@include adjust-font-size-to(20px, 2.8);
+		color: $primary-color;
+		font-family: 'din_lightregular';
+		text-transform: uppercase;
+	}
+	.details {
+		@include rhythm(0, 0, 0, 2);
+		color: lighten($grey, 10%);
+		@include adjust-font-size-to(18px, 2);
+		font-weight: 700;
+		span {
+			display: block;
+			color: lighten($grey, 30%);
+			@include adjust-font-size-to(16px, 2);
+			a {
+				color: lighten($grey, 30%);
+				text-decoration: none;
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+		}
+		&.no-margin {
+			margin-bottom: 0px !important;
+		}
+	}
+}
+
+.image-gallery-container {
+	//@extend %bdr;
+	@include clearfix;
+	width: 100%;
+	.image-gallery {
+		img {
+			width: 100%;
 		}
 	}
 }

@@ -52,17 +52,20 @@
 .ui-multiselect-checkboxes label {
   cursor: default;
   display: block;
-  border: 1px solid transparent;
+  //border: 1px solid transparent;
+  border: none;
   padding: 3px 1px
 }
 .ui-multiselect-checkboxes label input {
   position: relative;
-  top: 1px
+  top: 0px;
+  margin-right: 5px;
 }
 .ui-multiselect-checkboxes li {
   clear: both;
   font-size: 0.9em;
-  padding-right: 3px
+  padding: 7px;
+  border-bottom: solid 1px #e6e6e6;
 }
 .ui-multiselect-checkboxes li.ui-multiselect-optgroup-label {
   text-align: center;

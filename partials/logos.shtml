@@ -1,0 +1,28 @@
+<section class="logos-container">
+  <div class="logos">
+    <div>
+      <img src="img/logos/disneyland.png" alt="placeholder+image" class="slider-image">
+    </div>
+    <div>
+      <img src="img/logos/nigloland.png" alt="placeholder+image" class="slider-image">
+    </div>
+    <div>
+      <img src="img/logos/parcasterix.png" alt="placeholder+image" class="slider-image">
+    </div>
+    <div>
+      <img src="img/logos/puydufou.png" alt="placeholder+image" class="slider-image">
+    </div>
+    <div>
+      <img src="img/logos/disneyland.png" alt="placeholder+image" class="slider-image">
+    </div>
+    <div>
+      <img src="img/logos/nigloland.png" alt="placeholder+image" class="slider-image">
+    </div>
+    <div>
+      <img src="img/logos/parcasterix.png" alt="placeholder+image" class="slider-image">
+    </div>
+    <div>
+      <img src="img/logos/puydufou.png" alt="placeholder+image" class="slider-image">
+    </div>
+  </div>
+</section>
