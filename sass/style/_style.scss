@@ -165,3 +165,151 @@
 		}
 	}
 }
+
+.slider-content-container {
+	h4 {
+		color: $white;
+	}
+	p {
+		color: $white;
+	}
+}
+
+
+//Template content
+.template-header {
+	background: url(../img/base/pattern.jpg) no-repeat center center;
+	.inner {
+		//@extend %bdr;
+		.days-out-logo {
+			.days-out-logo_inner {
+				@include breakpoint($large) {
+				}
+			}
+		}
+	}
+}
+
+.inner-template-container {
+	font-family: 'gotham_lightregular';
+	.content-section {
+		.inner {
+		}
+		@include breakpoint($large){
+ 
+		}
+	}
+}
+
+.featured-header-image {
+	.inner {
+		@include breakpoint($large) {
+		}
+		@include breakpoint($large){
+		}
+	}
+}
+
+.content-section {
+	@include clearfix;
+	.inner {
+		@include clearfix;
+	}
+	.left {
+		.content-module {
+			@include breakpoint($large){
+			}
+			.logo-container {
+				img {
+					max-width: 220px;
+				}
+				@include breakpoint($large){
+					display: table-cell;
+				}
+			}
+			.detail-container {
+				h1 {
+					@include breakpoint($large){
+						@include rhythm(0, 0, 1, 0);
+					}
+				}
+				@include breakpoint($large){
+					padding-left: 1em;
+				}
+			}
+		}
+		h2 {
+			@include breakpoint($large){
+				@include adjust-font-size-to(30px, 3.5);
+			}
+		}
+
+		@include breakpoint($large){
+	
+		}
+	}
+	.right {
+		.inner-content {
+
+			#map_canvas {
+				background-color: $white;
+			}
+		}
+		@include breakpoint($large){
+
+		}
+	}
+}
+
+
+	.details {
+		@include rhythm(0, 0, 0, 2);
+		color: lighten($grey, 10%);
+		@include adjust-font-size-to(18px, 2);
+		font-weight: 700;
+		span {
+			display: block;
+			color: lighten($grey, 30%);
+			@include adjust-font-size-to(16px, 2);
+			a {
+				color: lighten($grey, 30%);
+				text-decoration: none;
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+		}
+		&.no-margin {
+
+		}
+	}
+
+.small-map {
+
+}
+
+.large-map {
+
+}
+
+.image-gallery-container {
+	.image-gallery {
+		img {
+	
+		}
+	}
+}
+
+.inner-pt-pd {
+	//@include rhythm(0, 3, 3, 0);
+}
+
+.inner-h3 {
+	@include adjust-font-size-to(20px, 2.8);
+	color: $primary-color;
+	font-family: 'din_lightregular';
+	text-transform: uppercase;
+	@include breakpoint($large){
+		 
+	}
+}

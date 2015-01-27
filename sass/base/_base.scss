@@ -204,8 +204,29 @@ h1, h2, h3, h4, h5 {
 
 h1, h2 {
 	@include adjust-font-size-to(36px, 3.5);
-	@include rhythm(0, 0, 0, 2);
+	@include rhythm(0, 0, 0, 3);
 	font-family: 'gotham_lightregular';
+}
+
+h3 {
+	@include adjust-font-size-to(20px, 2.8);
+	font-family: 'din_lightregular';
+	text-transform: uppercase;
+}
+
+h1, h2, h3 {
+	color: $primary-color;
+}
+
+
+p {
+	color: $grey;
+	@include adjust-font-size-to(20px, 2.8);
+	@include rhythm(0, 0, 0, 3);
+}
+
+a {
+	color: $primary-color;
 }
 
 /* h2 {

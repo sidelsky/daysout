@@ -50,7 +50,7 @@
     </div>
   </section>
 
-  <section class="content-section">
+  <section class="content-section premuim-template">
     <div class="inner max-width">
       <div class="left" >
         <div class="content-module">
@@ -72,12 +72,10 @@
         <h3>Before you dine</h3>
         <p>Lorizzle shizzlin dizzle dolizzle sit dope, consectetizzle adipiscing yo. Stuff fo shizzle velizzle, yo volutpizzle, suscipizzle quis, gravida pimpin', sizzle. Pellentesque fo shizzle tortizzle. Sed erizzle. My shizz izzle dolor ass turpis tempizzle cool. Maurizzle pellentesque nibh gangsta turpizzle. That's the shizzle shiznit tortizzle. Pellentesque eleifend rhoncizzle brizzle. In boofron habitasse platea dictumst. Go to hizzle dapibus. Own yo' dizzle things, pretizzle shit, mattizzle ac, eleifend fo, nunc. Funky fresh suscipizzle. Integer sempizzle fo shizzle my nizzle sizzle daahng dawg.</p>
 
-        <h3>Gallery</h3>
-
       </div>
       <div class="right">
         <div class="inner-content">
-            <div id="map_canvas"></div>
+            <div id="map_canvas" class="small-map"></div>
             <button type="button">Redeem</button>
             <h3>OPENING TIMES</h3>
             <p class="details">Mon - Sun<br>
@@ -94,6 +92,11 @@
     </div>
   </section>
 
+<div class="inner-pt-pd">
+  <section class="max-width">
+    <h3 class="inner-h3">Gallery</h3>
+  </section>
+
   <section class="image-gallery-container">
     <div class="image-gallery">
       <div>
@@ -107,6 +110,7 @@
       </div>
     </div>
   </section> 
+</div>
 
 </div>
 

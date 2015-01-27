@@ -249,19 +249,28 @@
 	}
 }
 
-.footer-container,
+.footer-container {
+	@include rhythm(0, 1, 1, 0);
+}
+
 .search-container {
-	background-color: $tertiary-color;
 	@include rhythm(0, 3, 3, 0);
 }
 
+.search-container,
+.footer-container {
+	background-color: $tertiary-color;
+}
+
 .search-select {
-	@include rhythm(0, 2, 2, 0);
-	@include span(12 of 12);
+	&.home {
+		@include rhythm(0, 2, 2, 0);
+		@include span(12 of 12);
+	}
 	ul {
 		@include container($max-width);
 		li {
-			@include rhythm(0, .4, .4, 0);
+			padding: 0 0 2px 0 !important;
 			@include breakpoint($medium){
 				@include span(3 of 12 );
 			}
@@ -274,6 +283,7 @@
 		}
 	}
 }
+
 
 .search-select ul li input[type="submit"],
 .search-select ul li button {
@@ -503,9 +513,8 @@
 }
 
 
-
+//Template content
 .template-header {
-	background: url(../img/base/pattern.jpg) no-repeat center center;
 	position: relative;
 	z-index: 1;
 	.inner {
@@ -515,7 +524,7 @@
 			@include rhythm(0, 0, 0, 0);
 			.days-out-logo_inner {
 				width: 200px;
-				@include breakpoint($medium) {
+				@include breakpoint($large) {
 					width: 300px;
 				}
 			}
@@ -525,17 +534,21 @@
 
 
 .inner-template-container {
-	font-family: 'gotham_lightregular';
 	//@extend %bdr;
 	position: relative;
 	min-height: 300px;
 	.content-section {
-		//padding-top: 300px;
-		padding-top: 227px;
+		//padding-top: 30px;
+		@include rhythm(0, 4, 4, 0);
 		z-index: 200;
 		position: relative;
 		.inner {
 			//@extend %bdr;
+		}
+		&.premuim-template {
+			@include breakpoint($large){
+				padding-top: 227px;
+			}
 		}
 	}
 }
@@ -549,111 +562,368 @@
 	.inner {
 		position: relative;
 		max-width: 100em;
-		height: 300px;
+		height: 200px;
 		margin: 0 auto;
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center 0px;
 		@include clearfix;
-		@include breakpoint($medium) {
+		@include breakpoint($large) {
 			background-size: inherit;
 			background-position: center -100px;
+		}
+		@include breakpoint($large){
+			min-height: 300px;
 		}
 	}
 }
 
 .content-section {
 	@include clearfix;
+	.inner {
+		@include clearfix;
+	}
 	.left {
-		//@extend %bdr;
-		@include span(8 of 12);
 		.content-module {
 			@include rhythm(0, 0, 3, 0);
-			display: table;
+			@include breakpoint($large){
+				display: table;
+			}
 			.logo-container {
-				//@include span(4 of 12);
-				//width: 33.333%;
-				display: table-cell;
-				//@extend %bdr;
 				img {
 					max-width: 220px;
+				}
+				@include breakpoint($large){
+					display: table-cell;
 				}
 			}
 			.detail-container {
 				display: table-cell;
 				vertical-align: bottom;
 				float: none;
-				//@extend %bdr;
-				padding-left: 1em;
 				h1 {
-					color: $primary-color;
-					@include rhythm(0, 0, 1, 0);
+					@include rhythm(0, 2, 1, 0);
+					@include breakpoint($large){
+						@include rhythm(0, 0, 1, 0);
+					}
+				}
+				@include breakpoint($large){
+					padding-left: 1em;
 				}
 			}
 		}
 		h2 {
-			@include adjust-font-size-to(30px, 3.5);
-			color: $primary-color;
 			@include rhythm(0, 0, 0, 3);
+			@include breakpoint($large){
+				@include adjust-font-size-to(30px, 3.5);
+			}
 		}
 		p {
-			@include adjust-font-size-to(20px, 2.8);
 			@include rhythm(0, 0, 0, 2);
-			color: $grey;
+		}
+
+		@include breakpoint($large){
+			@include span(8 of 12);
 		}
 	}
 	.right {
-		//@extend %bdr;
-		@include span(3 of 12);
-		@include push(1 of 12);
 		.inner-content {
 			@include rhythm(0, 0, 0, 5);
-			//margin-top: -130px;
 			#map_canvas {
-				width: 100%;
-				height: 293px;
-				//@extend %bdr;
-				background-color: $white;
-				@include rhythm(0, 0, 0, 1);
+
 			}
 		}
-	}
-		h3 {
-		@include adjust-font-size-to(20px, 2.8);
-		color: $primary-color;
-		font-family: 'din_lightregular';
-		text-transform: uppercase;
-	}
-	.details {
-		@include rhythm(0, 0, 0, 2);
-		color: lighten($grey, 10%);
-		@include adjust-font-size-to(18px, 2);
-		font-weight: 700;
-		span {
-			display: block;
-			color: lighten($grey, 30%);
-			@include adjust-font-size-to(16px, 2);
-			a {
-				color: lighten($grey, 30%);
-				text-decoration: none;
-				&:hover {
-					text-decoration: underline;
-				}
-			}
+		@include breakpoint($large){
+			@include span(3 of 12);
+			@include push(1 of 12);
 		}
-		&.no-margin {
-			margin-bottom: 0px !important;
-		}
+	}
+	h3 {
+
 	}
 }
 
-.image-gallery-container {
+.details {
+	@include rhythm(0, 0, 0, 2);
+	span {
+		display: block;
+		a {
+
+			&:hover {
+
+			}
+		}
+	}
+	&.no-margin {
+		margin-bottom: 0px !important;
+	}
+}
+
+.small-map {
+	@include rhythm(0, 0, 0, 1);
+	width: 100%;
+	height: 293px;
+}
+
+.large-map {
+	position: ralative;
+	width: 100%;
+	height: 100%;
+	display: none;
+	@include breakpoint($medium){
+		display: block;
+	}
 	//@extend %bdr;
+}
+
+.image-gallery-container {
 	@include clearfix;
 	width: 100%;
 	.image-gallery {
 		img {
 			width: 100%;
+		}
+	}
+}
+
+.inner-pt-pd {
+	//@include rhythm(0, 3, 3, 0);
+}
+
+.inner-h3 {
+	@include breakpoint($large){
+		@include span(12 or 12);
+	}
+}
+
+
+$search-width-mobile: 100%;
+$search-width-tablet: 320px;
+$search-width-desktop: 430px;
+
+.map-search{
+	max-width: $search-width-mobile;
+	position: relative;
+	left: 0;
+	top: 0;
+	z-index: 2;
+	padding: 0 !important;
+	margin: 0  !important;
+	.content-inner {
+		padding: 0;
+		margin: 0;
+		width: 100%;
+		@include clearfix;
+		.search-select {
+			@include rhythm(0, 0, 0, 0);
+			ul {
+				width: 100%;
+				//@extend %bdr;
+				li {
+					margin: 0;
+					padding: 0 0 2px 0 !important;
+					width: 100%;
+					button {
+						margin: 0;
+						width: 100% !important;
+						//padding: 0;
+					}
+				}
+			}
+		}
+	}
+	@include breakpoint($medium){
+		left: 2em;
+		top: 2em;
+		position: absolute;
+	}
+	@include breakpoint($medium){
+		max-width: $search-width-tablet;
+	}	
+	@include breakpoint($large){
+		max-width: $search-width-desktop;
+	}	
+}
+
+.results {
+	background-color: $white;
+	li {
+		//@extend %bdr;
+		color: $grey;
+		.inner {
+			padding: 1em;
+			@include clearfix;
+			.left {
+				float: left;
+				width: 70%;
+				h1 {
+					margin-bottom: 5px;
+					@include adjust-font-size-to(24px, 2);
+					color: $secondary-color;
+				}
+				p {
+					@include rhythm(0, 0, 1, 0);
+					span{
+						padding-top: 5px;
+					}
+					margin-bottom: 0px;
+				}
+				.map-link {
+					@include adjust-font-size-to(12px, 1);
+					text-transform: uppercase;
+					text-decoration: none;
+					color: $secondary-color;
+/* 					&:before {
+						content: "\f041";
+						color: $tertiary-color;
+						font-family: FontAwesome;
+						font-style: normal;
+						font-weight: normal;
+						@include adjust-font-size-to(18px, 1);
+						padding-right: .4em;
+						} */
+						&:hover {
+						//text-decoration: underline;
+						&:before {
+							color: $secondary-color;
+						}
+					}
+				}
+				i.fa-map-marker {
+					color: $tertiary-color;
+				}
+			}
+			.right {
+				float: right;
+				width: 30%;
+				.thumb {
+					width: 100%;
+					padding-left: 1em;
+				}
+			}
+			&:hover,
+			&.active {
+				h1 {
+					color: $tertiary-color;
+				}
+			}
+		}
+		&:nth-child(2n) {
+			background: lighten($grey, 55%); 
+		}
+	}
+	@include breakpoint($medium){
+		overflow: auto;
+		height: 400px;
+	}
+}
+
+
+.cssmenu {
+	ol {
+		.has-sub {
+			border-bottom: solid 1px lighten($grey, 40%);
+			//@include opacity(.6);
+			@include transition(opacity .3s ease-in-out);
+		/* &:hover {
+			@include opacity(1);
+		} */
+	>a {
+		cursor: pointer;
+		text-decoration: none;
+		@include rhythm(0, 1.5, 1.5, 0);
+		display: block;
+		h3 {
+			color: $tertiary-color;
+			position: relative;
+			&:after {
+				font-size: 16px;
+				content: "\f10c";
+				font-family: FontAwesome;
+				font-style: normal;
+				font-weight: normal;
+				text-decoration: inherit;
+				position: absolute;
+				right: 0px;
+				top: 0px;
+			}
+			span {
+				display: block;
+				padding-right: 2em;
+			}	
+		}
+	}
+	.sub-list {
+		display: none;
+		li {
+			p {
+				//margin: 0;
+			}
+		}
+	}
+	&.open {
+		//@include opacity(1);
+		>a {
+			h3 {
+					color: $primary-color;
+					&:after {
+							content: "\f111";
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+.active-opacity {
+	@include opacity(.2);
+}
+
+.open {
+	@include opacity(1);
+}
+
+.numbered-list {
+	//padding-left: 1em;
+	margin-left: 2em;
+	color: $primary-color;
+	li {
+		list-style-type: decimal;
+		ol {
+			margin-left: 2em;
+			li {
+				//@include rhythm(0, 0, .5, 0);
+				//@include rhythm(0, 1.5, 1.5, 0);
+				p {
+
+				}
+			}
+		}
+	}
+}
+
+
+form {
+	ul {
+		li {
+			.fields {
+				position: relative;
+				h3 {
+					color: $tertiary-color;
+					@include transition(all 0.5s ease-in-out);
+					// position: absolute;
+					// left: 1em;
+					// top: 17px;
+					&.active {
+						color: $primary-color;
+						// left: 1em;
+						// top: -20px;
+					}
+				}
+			}
+			@include rhythm(0, .5, .5, 0);
 		}
 	}
 }

@@ -50,20 +50,20 @@ data-top-bottom="background-position:center 100px;"
     <ul class="tabs">
       <li class="active">
         <div>
-          <a href="javascript:void(0)">Sign in</a>
+          <a href="javascript:void(0)">Connexion</a>
         </div>
       </li>
       <li class="inactive">
         <div>
-          <a href="#">Tour site</a>
+          <a href="#">Visite du site</a>
         </div>
       </li>
     </ul>
     <div class="sign-in_inner narrow inner-padding">
       <div class="sign-in_inner__container">
-        <h1>Welcome, your day out is waiting!</h1>
+        <h1>Bienvenue ! Votre activité vous attend !</h1>
         <form action="" name="code-detail" id="sigin-in_form">
-          <input type="text" placeholder="Please enter your code here" name="code" id="code">
+          <input type="text" placeholder="Veuillez entrer votre code ici" name="code" id="code">
           <input type="image" src="img/base/submit.png" name="Submit" id="submit">
         </form>
       </div>
@@ -79,7 +79,7 @@ data-top-bottom="background-position:center 100px;"
   </div>
 
   <div class="small-titles inner-padding">
-    <h3>How it works - Booking your day out is simple</h3>
+    <h3>Comment choisir mon activité ? C’est très simple !</h3>
   </div>
 
   <ul class="content-inner steps inner-padding">
@@ -92,8 +92,8 @@ data-top-bottom="background-position:center 100px;"
           data-anchor-target="#steps"
           >
         </i>
-        <h1>Search</h1>
-        <p>from a list of Days Out with fantastic deals on offer</p>
+        <h1>Recherchez</h1>
+        <p>ce qui vous plairait le plus parmi notre liste de fantastiques partenaires !</p>
       </div>
       <div class="arrow-right"></div>
     </li>
@@ -106,8 +106,8 @@ data-top-bottom="background-position:center 100px;"
           data-anchor-target="#steps"
           >
         </i>
-        <h1>Choose</h1>
-        <p>your experience from 1000’s of days out </p>
+        <h1>Sélectionnez</h1>
+        <p>l’activité de votre choix !</p>
       </div>
       <div class="arrow-right"></div>
     </li>
@@ -120,8 +120,8 @@ data-top-bottom="background-position:center 100px;"
           data-anchor-target="#steps"
           >
         </i>
-        <h1>Enjoy</h1>
-        <p>show your Days Out card at the venue to redeem</p>
+        <h1>Profitez</h1>
+        <p>Présentez votre bon cadeau à notre partenaire pour profiter de votre activité!</p>
       </div>
       <div class="arrow-right"></div>
     </li>
@@ -130,9 +130,9 @@ data-top-bottom="background-position:center 100px;"
 
 <section class="search-container">
   <div class="content-inner inner-padding">
-    <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
+    <h2>Découvrez dès maintenant de quelle activité vous allez pouvoir profiter près de chez vous ou ailleurs !</h2>
 
-    <form action="" class="search-select">
+    <form action="" class="search-select home">
       <ul>
         <li class="region">
           <select title="Basic example" multiple="multiple" name="example-basic" size="5">
@@ -185,7 +185,7 @@ data-top-bottom="background-position:center 100px;"
         <li>
           <!-- <input type="submit" value="Submit"> -->
           <button id="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button">
-            <span class="ui-button-text">Submit</span>
+            <span class="ui-button-text">Valider</span>
           </button>
         </li>
       </ul>

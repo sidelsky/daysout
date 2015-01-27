@@ -2,7 +2,7 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-	@include rhythm(0, 0, 0, 2);
+	//@include rhythm(0, 0, 0, 2);
 	font-family: 'din_lightregular';
 	font-size: 18px;
 	width: 100%;
@@ -39,4 +39,34 @@ input[type="reset"]:active,
 input[type="submit"]:active {
 	border-color: $primary-color;
 	box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+button.search-toggle {
+	background-color: $tertiary-color;
+	text-align: left;
+	font-family: 'gotham_mediumregular';
+	&:hover {
+		background-color: darken($tertiary-color, 10%) !important;
+	}
+	&:before {
+		//content: "\f107";
+		content: "\f0c9";
+		font-family: FontAwesome;
+		font-style: normal;
+		font-weight: normal;
+		text-decoration: inherit;
+		/*--adjust as necessary--*/
+		color: $white;
+		font-size: 18px;
+		padding-right: 0.5em;
+		position: absolute;
+		top: 19px;
+		right: 6px;
+	}
+	&.active {
+		&:before {
+			content: "\f00d";
+			color: $primary-color;
+		}
+	}
 }
