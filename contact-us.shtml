@@ -22,11 +22,6 @@
       <![endif]-->
       <div id="info">0</div>
 
-  <!--
-  data-bottom-top="opacity:0; transform:translateY(-60px)"
-  data-top-top="opacity:1; transform:translateY(0px)"
-  data-top-bottom="opacity:0; transform:translateY(60px)"
--->
 
 <header id="header" class="template-header">
   <div class="inner max-width">

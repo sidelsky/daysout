@@ -312,10 +312,12 @@ $('.image-gallery').slick({
 }
 
 
-function do_google_map(){
+function do_google_map(latitude, longitude){
+
   //Google maps
   var map;
-  var myMap = new google.maps.LatLng(51.514753, -0.136690);
+  var myMap = new google.maps.LatLng(latitude, longitude);
+  //var myMap = new google.maps.LatLng(51.514753, -0.136690);
   var image;
 
   var stylez = [
@@ -399,7 +401,7 @@ $(document).ready(function(){
 
 $( window ).resize(function() {
   do_full_map();
-  do_google_map();
+  //do_google_map();
 });
 
 
@@ -563,7 +565,7 @@ hover_container.hover(function() {
 do_multi_select();
 do_logo_slider();
 do_image_slider();
-do_google_map();
+//do_google_map();
 do_full_map();
 
   //End

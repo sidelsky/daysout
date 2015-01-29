@@ -590,6 +590,7 @@
 				display: table;
 			}
 			.logo-container {
+				//background-color: lighten($grey, 40%);
 				img {
 					max-width: 220px;
 				}
@@ -640,6 +641,9 @@
 	}
 	h3 {
 
+	}
+	button {
+		margin-bottom: 1em;
 	}
 }
 

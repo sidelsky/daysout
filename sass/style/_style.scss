@@ -62,7 +62,9 @@
 			@include fittext($min-media: 320px, $max-media: 1900px, $min-font-size: 18px, $max-font-size: 36px, $media-increment: 100, $font-increment: 2.5, $ratio: 1, $round: false);		
 		}
 		&.search {
-			color: $tertiary-color;
+			h1, p {
+				color: $tertiary-color;
+			}
 			background-color: $light-grey;
 			.inner {
 				
@@ -72,7 +74,9 @@
 			}
 		}
 		&.choose {
-			color: $white;
+			h1, p {
+				color: $white;
+			}
 			background-color: lighten($tertiary-color, 15%);
 			.inner {
 				
@@ -82,7 +86,9 @@
 			}
 		}
 		&.enjoy {
-			color: $white;
+			h1, p {
+				color: $white;
+			}
 			background-color: $tertiary-color;
 			.inner {
 				
@@ -152,6 +158,7 @@
 			}
 			p {
 				@include rhythm(0, 0, 0, 1);
+				color: $white;
 			}
 			a {
 				@include breakpoint($medium){

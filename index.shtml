@@ -200,23 +200,31 @@ data-top-bottom="background-position:center 100px;"
     <!-- Slide -->
     <div class="slide">
       <div class="inner">
-        <a href="/" class="w50 first">
+        <a href="partners/blue-green.shtml" class="w50 first">
           <div class="slider-content-container">
-            <h4>Lorem ipsum dolor sit amet mollitia odio earum neque</h4>
-            <p>Excepturi quae quod velit mollitia odio earum neque porem ipsum dolor sit amet.</p>
+            <h4>Blue Green, des golfs engagés</h4>
+            <p>Regroupant sous une même enseigne les anciens golfs Blue Green et Formule Golf</p>
           </div>
             <div class="slider-image-wrapper"></div>
-            <img src="img/days_out/001.jpg" alt="placeholder+image" class="slider-image">
+            <img src="../img/partners/blue-green/featured-blue-green.jpg" alt="Blue Green" class="slider-image">
         </a>
-        <a href="/" class="w50 last">
+        <a href="partners/" class="w50 last">
           <div class="slider-content-container">
-            <h4>Lorem ipsum dolor sit amet mollitia odio earum neque</h4>
-            <p>Excepturi quae quod velit mollitia odio earum neque porem ipsum dolor sit amet.</p>
+            <h4>NGF Golf</h4>
+            <p>Créé 2007 NGF Golf propose la pratique du golf accessible</p>
           </div>
           <div class="slider-image-wrapper"></div>
-            <img src="img/days_out/002.jpg" alt="placeholder+image" class="slider-image">
+            <img src="img/partners/ngf/featured-ngf.jpg" alt="NGF Golf" class="slider-image">
         </a>
-        <a href="/" class="w33 first">
+        <a href="partners/baladenigm.shtml" class="w33 first">
+          <div class="slider-content-container">
+            <h4>Balad Enigm</h4>
+            <p>Un BaladEnigm, c'est un jeu de piste d'un genre nouveau dans différentes villes de France</p>
+          </div>
+          <div class="slider-image-wrapper"></div>
+            <img src="img/partners/baladenigm/featured-baladenigm.jpg" alt="Balad Enigm" class="slider-image">
+        </a>
+        <a href="partners/" class="w33">
           <div class="slider-content-container">
             <h4>Lorem ipsum dolor sit amet mollitia odio earum neque</h4>
             <p>Excepturi quae quod velit mollitia odio earum neque porem ipsum dolor sit amet.</p>
@@ -224,15 +232,7 @@ data-top-bottom="background-position:center 100px;"
           <div class="slider-image-wrapper"></div>
             <img src="http://dummyimage.com/800x600/4d494d/4d494d.gif&text=+image" alt="placeholder+image" class="slider-image">
         </a>
-        <a href="/" class="w33">
-          <div class="slider-content-container">
-            <h4>Lorem ipsum dolor sit amet mollitia odio earum neque</h4>
-            <p>Excepturi quae quod velit mollitia odio earum neque porem ipsum dolor sit amet.</p>
-          </div>
-          <div class="slider-image-wrapper"></div>
-            <img src="http://dummyimage.com/800x600/4d494d/4d494d.gif&text=+image" alt="placeholder+image" class="slider-image">
-        </a>
-        <a href="/" class="w33 last">
+        <a href="partners/" class="w33 last">
           <div class="slider-content-container">
             <h4>Lorem ipsum dolor sit amet mollitia odio earum neque</h4>
             <p>Excepturi quae quod velit mollitia odio earum neque porem ipsum dolor sit amet.</p>
@@ -247,7 +247,15 @@ data-top-bottom="background-position:center 100px;"
     <!-- Slide -->
     <div class="slide">
       <div class="inner">
-      <a href="/" class="w33 first">
+      <a href="/partners/bowlingstar.shtml" class="w33 first">
+          <div class="slider-content-container">
+            <h4>Bowlingstar</h4>
+            <p>BOWLINGSTAR, pour vos sorties en famille ou entre amis</p>
+          </div>
+          <div class="slider-image-wrapper"></div>
+            <img src="../img/partners/bowlingstar/featured-bowlingstar.jpg" alt="Bowlingstar" class="slider-image">
+        </a>
+        <a href="partners/" class="w33">
           <div class="slider-content-container">
             <h4>Lorem ipsum dolor sit amet mollitia odio earum neque</h4>
             <p>Excepturi quae quod velit mollitia odio earum neque porem ipsum dolor sit amet.</p>
@@ -255,7 +263,7 @@ data-top-bottom="background-position:center 100px;"
           <div class="slider-image-wrapper"></div>
             <img src="http://dummyimage.com/800x600/4d494d/4d494d.gif&text=+image" alt="placeholder+image" class="slider-image">
         </a>
-        <a href="/" class="w33">
+        <a href="partners/" class="w33 last">
           <div class="slider-content-container">
             <h4>Lorem ipsum dolor sit amet mollitia odio earum neque</h4>
             <p>Excepturi quae quod velit mollitia odio earum neque porem ipsum dolor sit amet.</p>
@@ -263,7 +271,7 @@ data-top-bottom="background-position:center 100px;"
           <div class="slider-image-wrapper"></div>
             <img src="http://dummyimage.com/800x600/4d494d/4d494d.gif&text=+image" alt="placeholder+image" class="slider-image">
         </a>
-        <a href="/" class="w33 last">
+        <a href="partners/" class="w50 first">
           <div class="slider-content-container">
             <h4>Lorem ipsum dolor sit amet mollitia odio earum neque</h4>
             <p>Excepturi quae quod velit mollitia odio earum neque porem ipsum dolor sit amet.</p>
@@ -271,15 +279,7 @@ data-top-bottom="background-position:center 100px;"
           <div class="slider-image-wrapper"></div>
             <img src="http://dummyimage.com/800x600/4d494d/4d494d.gif&text=+image" alt="placeholder+image" class="slider-image">
         </a>
-        <a href="/" class="w50 first">
-          <div class="slider-content-container">
-            <h4>Lorem ipsum dolor sit amet mollitia odio earum neque</h4>
-            <p>Excepturi quae quod velit mollitia odio earum neque porem ipsum dolor sit amet.</p>
-          </div>
-          <div class="slider-image-wrapper"></div>
-            <img src="http://dummyimage.com/800x600/4d494d/4d494d.gif&text=+image" alt="placeholder+image" class="slider-image">
-        </a>
-        <a href="/" class="w50 last">
+        <a href="partners/" class="w50 last">
           <div class="slider-content-container">
             <h4>Lorem ipsum dolor sit amet mollitia odio earum neque</h4>
             <p>Excepturi quae quod velit mollitia odio earum neque porem ipsum dolor sit amet.</p>

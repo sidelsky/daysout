@@ -245,6 +245,12 @@
 
 <!--#include file="partials/footer.shtml"-->
 
+<script>
+  $(document).ready(function(){
+    do_google_map('51.514753', '-0.136690');
+  });  
+</script>
+
 <!-- / End content here -->
 
 </body>
