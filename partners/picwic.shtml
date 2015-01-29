@@ -35,7 +35,7 @@
 
 <div class="inner-template-container">
   <section class="featured-header-image">
-    <div class="inner" style="background-image: url(../img/partners/baladenigm/header-baladenigm.jpg);" 
+    <div class="inner" style="background-image: url(../img/partners/picwic/header-picwic.jpg);" 
       data-0="background-position: center -100px;"
       data--470-top="background-position: center 0px;"
       >
@@ -47,13 +47,13 @@
       <div class="left" >
         <div class="content-module">
           <div class="logo-container">
-            <img src="../img/partners/baladenigm/baladenigm.png" alt="Bowlingstar">
+            <img src="../img/partners/picwic/picwic.png" alt="Picwic">
           </div>
           <div class="detail-container">
             <!-- Partner title -->
-            <h1>Balad Enigm</h1>
+            <h1>Picwic</h1>
             <!-- Partner description -->
-            <p class="details no-margin">NGF Golf propose la pratique du golf accessible<br>
+            <p class="details no-margin">Dans votre magasin PICWIC, découvrez ou perfectionnez-vous<br>
             <!-- Address details -->
             <span>77777 Marne-la-Vallee, France lorem ipsum dolor sit amet, consectetuer adipiscing elit.</span>
             </p>
@@ -64,14 +64,14 @@
         <!-- <h2>Présentation du partenaire et de l’activité</h2> -->
 
         <h3>l’activité</h3>
-        <p>Un BaladEnigm, c'est un jeu de piste d'un genre nouveau dans différentes villes de France, que vous pouvez faire en toute liberté !</p>
+        <p>Dans votre magasin PICWIC, découvrez ou perfectionnez-vous en loisirs créatifs ! Participez à nos ateliers et, encadré par un animateur-expert, lancez-vous !</p>
 
-        <p>Chaque BaladEnigm est conçu pour être fait par un petit groupe (jusqu'à 5 ou 6 personnes maximum), en famille ou entre amis, grands et petits (à partir de 5-6 ans).</p>
+        <p>Accessibles à partir de 3 ans, des ateliers sont proposés chaque semaine dans tous les magasins Picwic autour de thèmes variés comme l'aérographe, la pâte fimo, le bois, les perles, la mosaïque...</p>
 
-        <p>Vous imprimez vous-même vos documents, ou téléchargez le circuit sur votre smartphone (iPhone ou Android)  (à partir de la rubrique "Mon Compte") vous partez vous promener le jour et à l'heure de votre choix : pas besoin de réserver, c'est vous qui décidez ! Et vous êtes même libre de changer de programme à la dernière minute, selon l'humeur ou les conditions météo… aucun guide pour vous attendre au point de départ : votre seul guide, c'est Bérald, qui vous accompagne tout au long du Carnet de Bord.</p>
+        <p>Des fiches créatives et des expositions de réalisations au cours des ateliers sont disponibles en rayon dans votre magasin.</p>
 
         <h3>l’offre</h3>
-        <p>1 BaladEnigm offerte d’une durée de 2h à 1 journée selon le parcours (pour un groupe de 4 à 6 personnes maximum) – âge minimum : 6 ans</p>
+        <p>1 atelier créatif offert au choix d’une durée de 30 minute à 1 heure (dans la limite d’une atelier d’une valeur de 10€), dans l’établissement Picwic de votre choix en France</p>
 
       </div>
       <div class="right">
@@ -85,7 +85,7 @@
             <h3>Website</h3>
             <p class="details">
               <span>
-                <a href="http://www.baladenigm.com" target="_blank">baladenigm.com</a>
+                <a href="http://www.picwic.com" target="_blank">picwic.com</a>
               </span>
             </p>
         </div>
@@ -101,13 +101,13 @@
   <section class="image-gallery-container">
     <div class="image-gallery">
       <div>
-        <img src="../img/partners/baladenigm/slider-baladenigm-001.jpg" alt="Baladenigm">
+        <img src="../img/partners/picwic/slider-picwic-003.jpg" alt="Picwic">
       </div>
       <div>
-        <img src="../img/partners/baladenigm/slider-baladenigm-002.jpg" alt="Baladenigm">
+        <img src="../img/partners/picwic/slider-picwic-002.jpg" alt="Picwic">
       </div>
       <div>
-        <img src="../img/partners/baladenigm/slider-baladenigm-003.jpg" alt="Baladenigm">
+        <img src="../img/partners/picwic/slider-picwic-001.jpg" alt="Picwic">
       </div>
     </div>
   </section> 
