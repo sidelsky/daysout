@@ -30,7 +30,9 @@
 	.sign-in_inner {
 		background-color: rgba($primary-color, .9);
 		.sign-in_inner__container {
-			color: $white;
+			h1 {
+				color: $white;
+			}
 			form {
 				input {
 				}

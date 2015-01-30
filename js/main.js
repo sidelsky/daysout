@@ -229,11 +229,21 @@ function do_logo_slider(){
 $('.logos').slick({
   dots: true,
   infinite: true,
-  slidesToShow: 4,
-  slidesToScroll: 4,
+  slidesToShow: 6,
+  slidesToScroll: 6,
   responsive: [
   {
     breakpoint: 1024,
+    settings: {
+      arrows: false,
+      centerMode: true,
+      centerPadding: '0px',
+			slidesToShow: 6,
+			slidesToScroll: 6,
+    }
+  },
+  {
+    breakpoint: 768,
     settings: {
       arrows: false,
       centerMode: true,
@@ -243,23 +253,13 @@ $('.logos').slick({
     }
   },
   {
-    breakpoint: 768,
-    settings: {
-      arrows: false,
-      centerMode: true,
-      centerPadding: '0px',
-      slidesToShow: 2,
-      slidesToScroll: 2,
-    }
-  },
-  {
     breakpoint: 480,
     settings: {
       arrows: false,
       centerMode: true,
       centerPadding: '0px',
-      slidesToShow: 2,
-      slidesToScroll: 2,
+      slidesToShow: 3,
+      slidesToScroll: 3,
     }
   }
   ]

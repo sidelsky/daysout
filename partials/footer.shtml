@@ -8,16 +8,16 @@
     <nav>
       <ul>
         <li>
-          <a href="">FAQs</a>
+          <a href="../faqs.shtml">FAQs</a>
         </li>
         <li>
-          <a href="">Comment adhérer ?</a>
+          <a href="../comment-adherer.shtml">Comment adhérer ?</a>
         </li>
         <li>
-          <a href="">Contact</a>
+          <a href="../contact-us.shtml">Contact</a>
         </li>
         <li>
-          <a href="">Termes et Conditions</a>
+          <a href="../termes-et-conditions.shtml">Termes et Conditions</a>
         </li>
       </ul>
     </nav>

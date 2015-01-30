@@ -1,28 +1,43 @@
 <section class="logos-container">
   <div class="logos">
     <div>
-      <img src="../img/logos/disneyland.png" alt="placeholder+image" class="slider-image">
+      <img src="../img/partners/aquarium-de-paris/aquarium.png" alt="placeholder+image" class="slider-image">
     </div>
     <div>
-      <img src="../img/logos/nigloland.png" alt="placeholder+image" class="slider-image">
+      <img src="../img/partners/aquarium-de-saint-malo/grand-aquarium.png" alt="placeholder+image" class="slider-image">
     </div>
     <div>
-      <img src="../img/logos/parcasterix.png" alt="placeholder+image" class="slider-image">
+      <img src="../img/partners/baladenigm/baladenigm.png" alt="placeholder+image" class="slider-image">
     </div>
     <div>
-      <img src="../img/logos/puydufou.png" alt="placeholder+image" class="slider-image">
+      <img src="../img/partners/blue-green/logo-blue-green.png" alt="placeholder+image" class="slider-image">
     </div>
     <div>
-      <img src="../img/logos/disneyland.png" alt="placeholder+image" class="slider-image">
+      <img src="../img/partners/bowlingstar/bowlingstar.png" alt="placeholder+image" class="slider-image">
     </div>
     <div>
-      <img src="../img/logos/nigloland.png" alt="placeholder+image" class="slider-image">
+      <img src="../img/partners/cirque-maximum/maximum.png" alt="placeholder+image" class="slider-image">
     </div>
     <div>
-      <img src="../img/logos/parcasterix.png" alt="placeholder+image" class="slider-image">
+      <img src="../img/partners/ecopark-adventures/eco-park.png" alt="placeholder+image" class="slider-image">
     </div>
     <div>
-      <img src="../img/logos/puydufou.png" alt="placeholder+image" class="slider-image">
+      <img src="../img/partners/france-aventures/france-aventures.png" alt="placeholder+image" class="slider-image">
+    </div>
+    <div>
+      <img src="../img/partners/france-miniature/france-miniature.png" alt="placeholder+image" class="slider-image">
+    </div>
+    <div>
+      <img src="../img/partners/goolfy/goolfy.png" alt="placeholder+image" class="slider-image">
+    </div>
+    <div>
+      <img src="../img/partners/laser-quest/laser-quest.png" alt="placeholder+image" class="slider-image">
+    </div>
+    <div>
+      <img src="../img/partners/ngf/ngf-golf.png" alt="placeholder+image" class="slider-image">
+    </div>
+    <div>
+      <img src="../img/partners/picwic/picwic.png" alt="placeholder+image" class="slider-image">
     </div>
   </div>
 </section>
