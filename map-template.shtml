@@ -20,19 +20,12 @@
   <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
       <![endif]-->
-      <div id="info">0</div>
-
-  <!--
-  data-bottom-top="opacity:0; transform:translateY(-60px)"
-  data-top-top="opacity:1; transform:translateY(0px)"
-  data-top-bottom="opacity:0; transform:translateY(60px)"
--->
 
 <header id="header" class="template-header">
   <div class="inner max-width">
     <div class="days-out-logo">
       <div class="days-out-logo_inner">
-        <a href="/">
+        <a href="../index.shtml">
           <img src="img/base/days-out-logo.png" alt="National Days Out" class="logo">
         </a>
       </div>

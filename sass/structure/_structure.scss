@@ -429,7 +429,8 @@
 			font-family: 'gotham_lightregular';
 			@include adjust-font-size-to(16px, 1.8);
 			@include rhythm(0, 0, 0, 1);
-			display: block;
+			//display: block;
+			display: none;
 		}
 	}
 

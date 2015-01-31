@@ -21,17 +21,6 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
       <![endif]-->
 
-  <!--
-  data-bottom-top="opacity:0; transform:translateY(-60px)"
-  data-top-top="opacity:1; transform:translateY(0px)"
-  data-top-bottom="opacity:0; transform:translateY(60px)"
--->
-
-<!-- <div id="progress-bar"
-data-0="width:0%;"
-data-end="width:100%"
-></div> -->
-
 <!-- Content here -->
 <header class="main-header"
 data-top-top="background-position:center 0px;"
@@ -40,7 +29,7 @@ data-top-bottom="background-position:center 100px;"
 <div class="main-header_inner">
   <div class="days-out-logo">
     <div class="days-out-logo_inner">
-      <a href="/">
+      <a href="index.shtml">
         <img src="img/base/days-out-logo.png" alt="National Days Out" class="logo">
       </a>
     </div>
@@ -75,7 +64,7 @@ data-top-bottom="background-position:center 100px;"
 
 <section class="how-it-works" id="steps">
   <div class="content-inner inner-padding">
-    <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
+    <h2>Nous avons rassemblé pour vous des centaines de loisirs fabuleux. De la séance de golf fun à des visites de villes, vous allez découvrir une multitude de divertissements de qualité et des partenaires qui n’attendent qu’une chose … être explorés !</h2>
   </div>
 
   <div class="small-titles inner-padding">
@@ -255,7 +244,7 @@ data-top-bottom="background-position:center 100px;"
           <div class="slider-image-wrapper"></div>
             <img src="../img/partners/bowlingstar/featured-bowlingstar.jpg" alt="Bowlingstar" class="slider-image">
         </a>
-        <a href="partners/picwic.html" class="w33">
+        <a href="partners/picwic.shtml" class="w33">
           <div class="slider-content-container">
             <h4>Picwic</h4>
             <p>Dans votre magasin PICWIC, découvrez ou perfectionnez-vous en loisirs créatifs</p>
@@ -312,21 +301,21 @@ data-top-bottom="background-position:center 100px;"
             <img src="img/partners/france-miniature/featured-france-miniature.jpg" alt="France Miniature" class="slider-image">
         </a>
         <!-- need more -->
-        <a href="partners/baladenigm.shtml" class="w33 first">
+        <a href="partners/kidzy.shtml" class="w33 first">
           <div class="slider-content-container">
-            <h4>Balad Enigm</h4>
+            <h4>Kidzy</h4>
             <p>Un BaladEnigm, c'est un jeu de piste d'un genre nouveau dans différentes villes de France</p>
           </div>
           <div class="slider-image-wrapper"></div>
-            <img src="img/partners/baladenigm/featured-baladenigm.jpg" alt="Balad Enigm" class="slider-image">
+            <img src="img/partners/kidz/featured-kidzy.jpg" alt="Kidzy" class="slider-image">
         </a>
-        <a href="partners/cirque-maximum.shtml" class="w33">
+        <a href="partners/vertical-aventure.shtml" class="w33">
           <div class="slider-content-container">
-            <h4>Cirque Maximum</h4>
+            <h4>Vertical Aventure</h4>
             <p>Un spectacle pour le plaisir des petits mais aussi des grands!</p>
           </div>
           <div class="slider-image-wrapper"></div>
-            <img src="img/partners/cirque-maximum/featured-maximum.jpg" alt="Cirque Maximum" class="slider-image">
+            <img src="img/partners/vertical/featured-vertical-aventure.jpg" alt="Vertical Aventure" class="slider-image">
         </a>
         <a href="partners/laser-quest.shtml" class="w33 last">
           <div class="slider-content-container">

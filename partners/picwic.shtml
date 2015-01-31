@@ -25,7 +25,7 @@
   <div class="inner max-width">
     <div class="days-out-logo">
       <div class="days-out-logo_inner">
-        <a href="/">
+        <a href="../index.shtml">
           <img src="../img/base/days-out-logo.png" alt="National Days Out" class="logo">
         </a>
       </div>

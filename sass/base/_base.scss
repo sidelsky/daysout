@@ -74,6 +74,9 @@ $select-background-color: #0062b4;
 //light Grey
 $light-grey: lighten($secondary-color, 50%);
 
+//Red
+$error: #cc0000;
+
 
 .white {
 	color: $white;
@@ -102,6 +105,8 @@ $light-grey: lighten($secondary-color, 50%);
 .tertiary-color {
 	color: $secondary-color;
 }
+
+
 
 //Include sprites 
 // @import "icons/*.png";

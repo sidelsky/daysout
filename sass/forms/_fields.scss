@@ -120,6 +120,21 @@ input[type="text"] {
 	}
 }
 
+	.error {
+	input[type="text"],
+	input[type="email"],
+	input[type="url"],
+	input[type="password"],
+	input[type="search"],
+	textarea {
+			color: $error !important;
+		}
+		.sliding-u-l-r {
+			width: 100%;
+			background-color: $error;
+		}
+	}	
+
 // .sliding-u-l-r {
 // display: inline-block;
 // }
@@ -141,3 +156,5 @@ input[type="text"] {
 	}
 		border-bottom: solid 1px lighten($grey, 40%);
 		border-width: 10px; */
+
+
