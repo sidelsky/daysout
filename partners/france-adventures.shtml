@@ -74,16 +74,113 @@
         <div class="inner-content">
             <div id="map_canvas" class="small-map"></div>
             <button type="button">Redeem</button>
-            <h3>OPENING TIMES</h3>
+<!--             <h3>OPENING TIMES</h3>
             <p class="details">Mon - Sun<br>
               <span>10:00 to 19:00</span>
-            </p>
+            </p> -->
             <h3>Website</h3>
             <p class="details">
               <span>
                 <a href="http://www.france-aventures.com" target="_blank">france-aventures.com</a>
               </span>
             </p>
+
+            <h3><!-- <i class="fa fa-map-marker"></i>  -->Locations</h3>
+            
+              <div class="cssmenu">
+                <ul>
+
+                  <li class="has-sub">
+                    <a href="#">
+                      <p class="details">France Aventures Chamrousse</p>
+                    </a>
+                    <ul class="sub-list">
+                      <li>
+                        <p class="details">
+                          <span>Domaine de l'Arselle<br>
+                          38410 Chamrousse<br>
+                          1700 04 76 15 36 92<br>
+                          Rhône-Alpes Isère<br>
+                          Adventure Park</span>
+                          </p>
+                        </li>
+                      </ul>
+                    </li>
+
+                    <li class="has-sub">
+                      <a href="#">
+                        <p class="details">France Aventures Lyon</p>
+                      </a>
+                      <ul class="sub-list">
+                        <li>
+                          <p class="details">
+                            <span>Piste de la Sarra<br>
+                            69005 Lyon<br>
+                            04 78 36 31 75<br>
+                            Rhône-Alpes Rhône<br>
+                            Adventure Park</span>
+                            </p>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li class="has-sub">
+                        <a href="#">
+                          <p class="details">France Aventures Nancy</p>
+                        </a>
+                        <ul class="sub-list">
+                          <li>
+                            <p class="details">
+                              <span>Plateau de l'Avant-Garde<br>
+                              54340 Pompey<br>
+                              03 83 24 18 06<br>
+                              Lorraine<br>
+                              Meurthe-et-Moselle<br>
+                              Adventure Park</span>
+                              </p>
+                            </li>
+                          </ul>
+                        </li>
+
+                        <li class="has-sub">
+                          <a href="#">
+                            <p class="details">France Aventures Saint Etienne</p>
+                          </a>
+                          <ul class="sub-list">
+                            <li>
+                              <p class="details">
+                                <span>Crêt Beauplomb<br>
+                                42650 Saint-Jean-Bonnefonds<br>
+                                04 77 46 02 83<br>
+                                Rhône-Alpes Loire<br>
+                                Adventure Park</span>
+                                </p>
+                              </li>
+                            </ul>
+                          </li>
+
+                          <li class="has-sub">
+                            <a href="#">
+                              <p class="details">France Aventures Sainte Croix</p>
+                            </a>
+                            <ul class="sub-list">
+                              <li>
+                                <p class="details">
+                                  <span>Forêt de Bainsing<br>
+                                  57810 Fribourg<br>
+                                  03 87 23 59 43<br>
+                                  LorraineMoselle<br>
+                                  Adventure Park</span>
+                                  </p>
+                                </li>
+                              </ul>
+                            </li>
+
+                          </ul>
+                        </div>
+
+
+                        
         </div>
       </div>
     </div>

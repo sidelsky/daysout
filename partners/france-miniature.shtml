@@ -74,10 +74,10 @@
         <div class="inner-content">
             <div id="map_canvas" class="small-map"></div>
             <button type="button">Redeem</button>
-            <h3>OPENING TIMES</h3>
+<!--             <h3>OPENING TIMES</h3>
             <p class="details">Mon - Sun<br>
               <span>10:00 to 19:00</span>
-            </p>
+            </p> -->
             <h3>Website</h3>
             <p class="details">
               <span>

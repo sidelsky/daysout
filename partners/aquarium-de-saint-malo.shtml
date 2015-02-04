@@ -77,7 +77,7 @@
             <div id="map_canvas" class="small-map"></div>
             <button type="button">Redeem</button>
             <h3>OPENING TIMES</h3>
-            <p class="details">Mon - Sun<br>
+            <p class="details">Mon - Sun<br>picpic
               <span>10:00 to 19:00</span>
             </p>
             <h3>Website</h3>
@@ -86,6 +86,30 @@
                 <a href="http://www.aquarium-st-malo.com" target="_blank">aquarium-st-malo.com</a>
               </span>
             </p>
+
+              <h3><!-- <i class="fa fa-map-marker"></i>  -->Locations</h3>
+              <div class="cssmenu">
+                <ul>
+                  <li class="has-sub">
+                    <a href="#">
+                    <p class="details">Aquarium de Paris</p>
+                      </a>
+                      <ul class="sub-list">
+                        <li>
+                          <p class="details">
+                            <span>
+                              5 avenue Albert de Mun<br>
+                              75116 Paris<br>
+                              01 40 69 23 23<br>
+                              Ile-de-France<br>
+                              Paris</span>
+                            </p>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+
         </div>
       </div>
     </div>

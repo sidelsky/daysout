@@ -26,7 +26,7 @@
   <div class="inner max-width">
     <div class="days-out-logo">
       <div class="days-out-logo_inner">
-        <a href="../index.shtml">
+        <a href="file:///Macintosh HD/Users/sidelsky/Dropbox/www/index.shtml">
           <img src="img/base/days-out-logo.png" alt="National Days Out" class="logo">
         </a>
       </div>
@@ -44,7 +44,7 @@
 
         <h2>Fairytales take flight across 5 incredible lands filled with classic attractions, shows and street parades. Rub shoulders with swashbuckling pirates, zoom through time and space and look on in awe at the unforgettable firework and light displays over Sleeping Beauty Castle.</h2>
 
-        <div class="cssmenu">
+        <div class="cssmenu faq">
           <ol>
 
             <li class="has-sub do-opacity">

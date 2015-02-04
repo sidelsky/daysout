@@ -130,6 +130,9 @@
 				}
 			}
 		}
+		@include breakpoint($medium){
+			@include span(7.9 of 12);
+		}
 	}
 }
 
@@ -653,7 +656,6 @@
 	span {
 		display: block;
 		a {
-
 			&:hover {
 
 			}
@@ -825,19 +827,22 @@ $search-width-desktop: 430px;
 
 
 .cssmenu {
-	ol {
+	ol, ul {
 		.has-sub {
-			border-bottom: solid 1px lighten($grey, 40%);
+			//border-bottom: solid 1px lighten($grey, 40%);
 			//@include opacity(.6);
-			@include transition(opacity .3s ease-in-out);
+			//@include transition(opacity .3s ease-in-out);
 		/* &:hover {
 			@include opacity(1);
-		} */
-	>a {
-		cursor: pointer;
-		text-decoration: none;
-		@include rhythm(0, 1.5, 1.5, 0);
+			} */
+			>a {
+				cursor: pointer;
+				text-decoration: none;
+		//@include rhythm(0, 1.5, 1.5, 0);
 		display: block;
+		p {
+			@include rhythm(0, 0, 0, 1);
+		}
 		h3 {
 			color: $tertiary-color;
 			position: relative;
@@ -858,39 +863,58 @@ $search-width-desktop: 430px;
 			}	
 		}
 	}
-	.sub-list {
-		display: none;
-		li {
-			p {
+
+	&.open {
+		//@include opacity(1);
+		>a {
+			h3{
+				color: $primary-color;
+				&:after {
+					content: "\f111";
+				}
+			}
+			>p {
+				color: $primary-color;
+			}
+		}
+		.more {
+			&:after {
+				content: "\f106" !important;
+			}
+		}
+	}
+}
+}
+&.faq {
+	.has-sub {
+		border-bottom: solid 1px lighten($grey, 40%);
+		@include transition(opacity .3s ease-in-out);
+		>a {
+			@include rhythm(0, 1.5, 1.5, 0);
+		}
+	}
+}
+}
+
+
+.sub-list {
+	display: none;
+	li {
+		p {
 				//margin: 0;
 			}
 		}
 	}
-	&.open {
-		//@include opacity(1);
-		>a {
-			h3 {
-					color: $primary-color;
-					&:after {
-							content: "\f111";
-						}
-					}
-				}
-			}
-		}
+
+	.active-opacity {
+		@include opacity(.2);
 	}
-}
 
+	.open {
+		@include opacity(1);
+	}
 
-.active-opacity {
-	@include opacity(.2);
-}
-
-.open {
-	@include opacity(1);
-}
-
-.numbered-list {
+	.numbered-list {
 	//padding-left: 1em;
 	margin-left: 2em;
 	color: $primary-color;

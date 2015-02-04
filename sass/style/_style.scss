@@ -291,6 +291,22 @@
 		&.no-margin {
 
 		}
+		&.more {
+			color: $primary-color;
+			border-top: solid 1px lighten($grey, 40%);
+			padding-top: 10px !important;
+			margin-top: 10px !important;
+			&:after {
+				content: "\f107";
+				color: $tertiary-color;
+				font-family: FontAwesome;
+				font-style: normal;
+				font-weight: normal;
+				@include adjust-font-size-to(18px, 1);
+				padding-right: .4em;
+				float: right;
+			}
+		}
 	}
 
 .small-map {

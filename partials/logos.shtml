@@ -1,49 +1,79 @@
 <section class="logos-container">
   <div class="logos">
     <div>
-      <img src="../img/partners/aquarium-de-paris/aquarium.png" alt="" class="slider-image">
+      <a href="../partners/aquarium-de-saint-malo.shtml">
+        <img src="../img/partners/aquarium-de-paris/aquarium.png" alt="" class="slider-image">
+      </a>
     </div>
     <div>
-      <img src="../img/partners/aquarium-de-saint-malo/grand-aquarium.png" alt="" class="slider-image">
+      <a href="../partners/grand-aquarium-de-paris.shtml">
+        <img src="../img/partners/aquarium-de-saint-malo/grand-aquarium.png" alt="" class="slider-image">
+      </a>
     </div>
     <div>
-      <img src="../img/partners/baladenigm/baladenigm.png" alt="" class="slider-image">
+      <a href="../partners/baladenigm.shtml">
+        <img src="../img/partners/baladenigm/baladenigm.png" alt="" class="slider-image">
+      </a>
     </div>
     <div>
-      <img src="../img/partners/blue-green/logo-blue-green.png" alt="" class="slider-image">
+      <a href="../partners/blue-green.shtml">
+        <img src="../img/partners/blue-green/logo-blue-green.png" alt="" class="slider-image">
+      </a>
     </div>
     <div>
-      <img src="../img/partners/bowlingstar/bowlingstar.png" alt="" class="slider-image">
+      <a href="../partners/bowlingstar.shtml">
+        <img src="../img/partners/bowlingstar/bowlingstar.png" alt="" class="slider-image">
+      </a>
     </div>
     <div>
-      <img src="../img/partners/cirque-maximum/maximum.png" alt="" class="slider-image">
+      <a href="../partners/cirque-maximum.shtml">
+        <img src="../img/partners/cirque-maximum/maximum.png" alt="" class="slider-image">
+      </a>
     </div>
     <div>
-      <img src="../img/partners/ecopark-adventures/eco-park.png" alt="" class="slider-image">
+      <a href="../partners/ecopark-adventures.shtml">
+        <img src="../img/partners/ecopark-adventures/eco-park.png" alt="" class="slider-image">
+      </a>
     </div>
     <div>
-      <img src="../img/partners/france-aventures/france-aventures.png" alt="" class="slider-image">
+      <a href="../partners/france-adventures.shtml">
+        <img src="../img/partners/france-aventures/france-aventures.png" alt="" class="slider-image">
+      </a>
     </div>
     <div>
-      <img src="../img/partners/france-miniature/france-miniature.png" alt="" class="slider-image">
+      <a href="../partners/france-miniature.shtml">
+        <img src="../img/partners/france-miniature/france-miniature.png" alt="" class="slider-image">
+      </a>
     </div>
     <div>
-      <img src="../img/partners/goolfy/goolfy.png" alt="" class="slider-image">
+      <a href="../partners/goolfy.shtml">
+        <img src="../img/partners/goolfy/goolfy.png" alt="" class="slider-image">
+      </a>
     </div>
     <div>
-      <img src="../img/partners/laser-quest/laser-quest.png" alt="" class="slider-image">
+      <a href="../partners/laser-quest.shtml">
+        <img src="../img/partners/laser-quest/laser-quest.png" alt="" class="slider-image">
+      </a>
     </div>
     <div>
-      <img src="../img/partners/ngf/ngf-golf.png" alt="" class="slider-image">
+      <a href="../partners/ngf-golf.shtml">
+        <img src="../img/partners/ngf/ngf-golf.png" alt="" class="slider-image">
+      </a>
     </div>
     <div>
-      <img src="../img/partners/picwic/picwic.png" alt="" class="slider-image">
+      <a href="../partners/picwic.shtml">
+        <img src="../img/partners/picwic/picwic.png" alt="" class="slider-image">
+      </a>
     </div>
     <div>
-      <img src="../img/partners/vertical/vertical.png" alt="" class="slider-image">
+      <a href="../partners/vertical-adventure.shtml">
+        <img src="../img/partners/vertical/vertical.png" alt="" class="slider-image">
+      </a>
     </div>
     <div>
-      <img src="../img/partners/kidz/kidsz.png" alt="" class="slider-image">
+      <a href="../partners/kidzy.shtml">
+        <img src="../img/partners/kidz/kidsz.png" alt="" class="slider-image">
+      </a>
     </div>
   </div>
 </section>
