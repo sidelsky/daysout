@@ -6913,7 +6913,15 @@ body .ui-tooltip {
   line-height: 1.33333rem;
   color: #3c97f1;
 }
-/* line 774, ../sass/structure/_structure.scss */
+/* line 773, ../sass/structure/_structure.scss */
+.results li .inner .left h1 a {
+  text-decoration: none;
+}
+/* line 775, ../sass/structure/_structure.scss */
+.results li .inner .left h1 a:hover {
+  color: #00357c;
+}
+/* line 780, ../sass/structure/_structure.scss */
 .results li .inner .left p {
   margin-top: 0px;
   margin-top: 0rem;
@@ -6925,11 +6933,11 @@ body .ui-tooltip {
   margin-bottom: 0rem;
   margin-bottom: 0px;
 }
-/* line 776, ../sass/structure/_structure.scss */
+/* line 782, ../sass/structure/_structure.scss */
 .results li .inner .left p span {
   padding-top: 5px;
 }
-/* line 781, ../sass/structure/_structure.scss */
+/* line 787, ../sass/structure/_structure.scss */
 .results li .inner .left .map-link {
   font-size: 12px;
   font-size: 0.66667rem;
@@ -6948,29 +6956,29 @@ body .ui-tooltip {
   						padding-right: .4em;
   						} */
 }
-/* line 797, ../sass/structure/_structure.scss */
+/* line 803, ../sass/structure/_structure.scss */
 .results li .inner .left .map-link:hover:before {
   color: #3c97f1;
 }
-/* line 802, ../sass/structure/_structure.scss */
+/* line 808, ../sass/structure/_structure.scss */
 .results li .inner .left i.fa-map-marker {
   color: #00357c;
 }
-/* line 806, ../sass/structure/_structure.scss */
+/* line 812, ../sass/structure/_structure.scss */
 .results li .inner .right {
   float: right;
   width: 30%;
 }
-/* line 809, ../sass/structure/_structure.scss */
+/* line 815, ../sass/structure/_structure.scss */
 .results li .inner .right .thumb {
   width: 100%;
   padding-left: 1em;
 }
-/* line 816, ../sass/structure/_structure.scss */
+/* line 822, ../sass/structure/_structure.scss */
 .results li .inner:hover h1, .results li .inner.active h1 {
   color: #00357c;
 }
-/* line 821, ../sass/structure/_structure.scss */
+/* line 827, ../sass/structure/_structure.scss */
 .results li:nth-child(2n) {
   background: #f2f2f2;
 }
@@ -6982,19 +6990,19 @@ body .ui-tooltip {
   }
 }
 
-/* line 834, ../sass/structure/_structure.scss */
+/* line 840, ../sass/structure/_structure.scss */
 .cssmenu ol .has-sub, .cssmenu ul .has-sub {
   /* &:hover {
   	@include opacity(1);
   	} */
 }
-/* line 841, ../sass/structure/_structure.scss */
+/* line 847, ../sass/structure/_structure.scss */
 .cssmenu ol .has-sub > a, .cssmenu ul .has-sub > a {
   cursor: pointer;
   text-decoration: none;
   display: block;
 }
-/* line 846, ../sass/structure/_structure.scss */
+/* line 852, ../sass/structure/_structure.scss */
 .cssmenu ol .has-sub > a p, .cssmenu ul .has-sub > a p {
   margin-top: 0px;
   margin-top: 0rem;
@@ -7005,12 +7013,12 @@ body .ui-tooltip {
   margin-bottom: 12px;
   margin-bottom: 0.66667rem;
 }
-/* line 849, ../sass/structure/_structure.scss */
+/* line 855, ../sass/structure/_structure.scss */
 .cssmenu ol .has-sub > a h3, .cssmenu ul .has-sub > a h3 {
   color: #00357c;
   position: relative;
 }
-/* line 852, ../sass/structure/_structure.scss */
+/* line 858, ../sass/structure/_structure.scss */
 .cssmenu ol .has-sub > a h3:after, .cssmenu ul .has-sub > a h3:after {
   font-size: 16px;
   content: "\f10c";
@@ -7022,28 +7030,28 @@ body .ui-tooltip {
   right: 0px;
   top: 0px;
 }
-/* line 863, ../sass/structure/_structure.scss */
+/* line 869, ../sass/structure/_structure.scss */
 .cssmenu ol .has-sub > a h3 span, .cssmenu ul .has-sub > a h3 span {
   display: block;
   padding-right: 2em;
 }
-/* line 873, ../sass/structure/_structure.scss */
+/* line 879, ../sass/structure/_structure.scss */
 .cssmenu ol .has-sub.open > a h3, .cssmenu ul .has-sub.open > a h3 {
   color: #0080e3;
 }
-/* line 875, ../sass/structure/_structure.scss */
+/* line 881, ../sass/structure/_structure.scss */
 .cssmenu ol .has-sub.open > a h3:after, .cssmenu ul .has-sub.open > a h3:after {
   content: "\f111";
 }
-/* line 879, ../sass/structure/_structure.scss */
+/* line 885, ../sass/structure/_structure.scss */
 .cssmenu ol .has-sub.open > a > p, .cssmenu ul .has-sub.open > a > p {
   color: #0080e3;
 }
-/* line 884, ../sass/structure/_structure.scss */
+/* line 890, ../sass/structure/_structure.scss */
 .cssmenu ol .has-sub.open .more:after, .cssmenu ul .has-sub.open .more:after {
   content: "\f106" !important;
 }
-/* line 892, ../sass/structure/_structure.scss */
+/* line 898, ../sass/structure/_structure.scss */
 .cssmenu.faq .has-sub {
   border-bottom: solid 1px #cccccc;
   -moz-transition: opacity 0.3s ease-in-out;
@@ -7051,7 +7059,7 @@ body .ui-tooltip {
   -webkit-transition: opacity 0.3s ease-in-out;
   transition: opacity 0.3s ease-in-out;
 }
-/* line 895, ../sass/structure/_structure.scss */
+/* line 901, ../sass/structure/_structure.scss */
 .cssmenu.faq .has-sub > a {
   margin-top: 0px;
   margin-top: 0rem;
@@ -7063,38 +7071,38 @@ body .ui-tooltip {
   margin-bottom: 0rem;
 }
 
-/* line 903, ../sass/structure/_structure.scss */
+/* line 909, ../sass/structure/_structure.scss */
 .sub-list {
   display: none;
 }
 
-/* line 912, ../sass/structure/_structure.scss */
+/* line 918, ../sass/structure/_structure.scss */
 .active-opacity {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=20);
   opacity: 0.2;
 }
 
-/* line 916, ../sass/structure/_structure.scss */
+/* line 922, ../sass/structure/_structure.scss */
 .open {
   filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
   opacity: 1;
 }
 
-/* line 920, ../sass/structure/_structure.scss */
+/* line 926, ../sass/structure/_structure.scss */
 .numbered-list {
   margin-left: 2em;
   color: #0080e3;
 }
-/* line 924, ../sass/structure/_structure.scss */
+/* line 930, ../sass/structure/_structure.scss */
 .numbered-list li {
   list-style-type: decimal;
 }
-/* line 926, ../sass/structure/_structure.scss */
+/* line 932, ../sass/structure/_structure.scss */
 .numbered-list li ol {
   margin-left: 2em;
 }
 
-/* line 942, ../sass/structure/_structure.scss */
+/* line 948, ../sass/structure/_structure.scss */
 form ul li {
   margin-top: 0px;
   margin-top: 0rem;
@@ -7105,11 +7113,11 @@ form ul li {
   margin-bottom: 0px;
   margin-bottom: 0rem;
 }
-/* line 943, ../sass/structure/_structure.scss */
+/* line 949, ../sass/structure/_structure.scss */
 form ul li .fields {
   position: relative;
 }
-/* line 945, ../sass/structure/_structure.scss */
+/* line 951, ../sass/structure/_structure.scss */
 form ul li .fields h3 {
   color: #00357c;
   -moz-transition: all 0.5s ease-in-out;
@@ -7117,7 +7125,7 @@ form ul li .fields h3 {
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
-/* line 951, ../sass/structure/_structure.scss */
+/* line 957, ../sass/structure/_structure.scss */
 form ul li .fields h3.active {
   color: #0080e3;
 }

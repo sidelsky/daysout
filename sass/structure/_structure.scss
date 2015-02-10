@@ -770,6 +770,12 @@ $search-width-desktop: 430px;
 					margin-bottom: 5px;
 					@include adjust-font-size-to(24px, 2);
 					color: $secondary-color;
+					a {
+						text-decoration: none;
+						&:hover {
+							color: $tertiary-color;
+						}
+					}
 				}
 				p {
 					@include rhythm(0, 0, 1, 0);
