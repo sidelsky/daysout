@@ -25,7 +25,7 @@
         <div class="inner max-width">
           <div class="days-out-logo">
             <div class="days-out-logo_inner">
-              <a href="../index.shtml">
+              <a href="../index/index.shtml">
                 <img src="../img/base/days-out-logo.png" alt="National Days Out" class="logo">
               </a>
             </div>
@@ -53,7 +53,7 @@
                 <!-- Partner title -->
                 <h1>Bowlingstar</h1>
                 <!-- Partner description -->
-                <p class="details no-margin">NGF Golf propose la pratique du golf accessible<br>
+                <p class="details no-margin">
                   <!-- Address details -->
                   <span>77777 Marne-la-Vallee, France lorem ipsum dolor sit amet, consectetuer adipiscing elit.</span>
                 </p>
@@ -64,7 +64,7 @@
             <!-- <h2>Présentation du partenaire et de l’activité</h2> -->
 
             <h3>l’activité</h3>
-            <p>BOWLINGSTAR, pour vos sorties en famille ou entre amis BOWLINGSTAR est le premier groupe français de bowling. Présent au sein de nombreuses villes en France, il offre un cadre idéal pour toutes vos sorties entre amis comme en famille. Le bowling est en effet une activité parfaite si vous souhaitez passer un moment de détente dans un endroit convivial</p>
+            <p>BOWLINGSTAR, pour vos sorties en famille ou entre amis. BOWLINGSTAR est le premier groupe français de bowling. Présent au sein de nombreuses villes en France, il offre un cadre idéal pour toutes vos sorties entre amis comme en famille. Le bowling est en effet une activité parfaite si vous souhaitez passer un moment de détente dans un endroit convivial</p>
 
             <h3>l’offre</h3>
             <p>Un accès à 1 partie offerte</p>

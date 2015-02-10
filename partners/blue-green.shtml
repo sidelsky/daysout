@@ -25,7 +25,7 @@
       <header id="header" class="template-header">
         <div class="inner max-width">
           <div class="days-out-logo">
-            <div class="days-out-logo_inner"> <a href="../index.shtml"> <img src="../img/base/days-out-logo.png" alt="National Days Out" class="logo"> </a> </div>
+            <div class="days-out-logo_inner"> <a href="../index/index.shtml"> <img src="../img/base/days-out-logo.png" alt="National Days Out" class="logo"> </a> </div>
           </div>
         </div>
       </header>
@@ -45,9 +45,9 @@
                   <!-- Partner title -->
                   <h1>Blue Green</h1>
                   <!-- Partner description -->
-                  <p class="details no-margin">Blue Green et Formule Golf<br>
-                    <!-- Address details --> 
-                    <span>77777 Marne-la-Vallee, France lorem ipsum dolor sit amet, consectetuer adipiscing elit.</span> </p>
+                    <p class="details no-margin">
+                      <span>77777 Marne-la-Vallee, France lorem ipsum dolor sit amet, consectetuer adipiscing elit.</span>
+                    </p>
                   </div>
                 </div>
                 
@@ -55,7 +55,7 @@
                 <!-- <h2>Présentation du partenaire et de l’activité</h2> -->
                 
                 <h3>l’activité</h3>
-                <p>Regroupant sous une même enseigne les anciens golfs Blue Green et Formule Golf, Blue Green Groupe Saur, est aujourd'hui numéro 1 de la gestion de parcours en Europe, avec 49 golfs en France.</p>
+                <p>Blue Green, des golfs engagés. Regroupant sous une même enseigne les anciens golfs Blue Green et Formule Golf, Blue Green Groupe Saur, est aujourd'hui numéro 1 de la gestion de parcours en Europe, avec 49 golfs en France.</p>
                 <p>L'ambition du groupe est de faire rimer nature, innovation, service et sport. Centre de recherche, équipes dédiées, nous sommes fortement engagées dans une politique environnementale et d'amélioration continue de nos services.</p>
                 <p>La chaîne Blue Green multiplie ses actions en faveur du développement durable : gestion de l'arrosage, utilisation d'engrais biologiques, respect de la biodiversité... le tout avec un entretien des parcours adapté à la pratique du golf.</p>
                  

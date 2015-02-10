@@ -444,6 +444,7 @@
 
 .logos-container {
 	//@extend %bdr;
+	@include rhythm(0, 2, 2, 2);
 	@include container($max-width);
 	overflow: hidden;
 	.logos {
@@ -466,17 +467,18 @@
 	.content-inner {
 		.days-out-logo_inner {
 			@include breakpoint($medium){
-				@include span(2.2);
+				@include span(3);
+				//@include rhythm(0, 3.1, 0, 0);
 			}
 			.logo {
-				width: 100%;
+				width: 200px;
 			}
 		}
 		nav {
 			@include rhythm(0, 0, 0, 4);
 			@include clearfix;
 			@include breakpoint($medium){
-				@include span(4.8);
+				@include span(5.5);
 				@include rhythm(0, 6, 0, 0);
 			}
 			ul {
@@ -495,10 +497,11 @@
 		.copyright {
 			@include clearfix;
 			@include breakpoint($medium){
-				@include span(5);
+				@include span(3.5);
 				@include rhythm(0, 6, 0, 0);
 			}
 			p {
+				@include adjust-font-size-to(16px, 1.8);
 				@include rhythm(0, 0, 0, 1);
 			}
 			a {
@@ -594,7 +597,6 @@
 				display: table;
 			}
 			.logo-container {
-				//background-color: lighten($grey, 40%);
 				img {
 					max-width: 220px;
 				}
@@ -914,7 +916,7 @@ $search-width-desktop: 430px;
 		@include opacity(1);
 	}
 
-	.numbered-list {
+.numbered-list {
 	//padding-left: 1em;
 	margin-left: 2em;
 	color: $primary-color;

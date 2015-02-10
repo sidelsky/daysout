@@ -25,7 +25,7 @@
       <header id="header" class="template-header">
         <div class="inner max-width">
           <div class="days-out-logo">
-            <div class="days-out-logo_inner"> <a href="../index.shtml"> <img src="../img/base/days-out-logo.png" alt="National Days Out" class="logo"> </a> </div>
+            <div class="days-out-logo_inner"> <a href="../index/index.shtml"> <img src="../img/base/days-out-logo.png" alt="National Days Out" class="logo"> </a> </div>
           </div>
         </div>
       </header>
@@ -45,9 +45,11 @@
                   <!-- Partner title -->
                   <h1>NGF Golf</h1>
                   <!-- Partner description -->
-                  <p class="details no-margin">NGF Golf propose la pratique du golf accessible<br>
+                  <p class="details no-margin">
                     <!-- Address details --> 
-                    <span>77777 Marne-la-Vallee, France lorem ipsum dolor sit amet, consectetuer adipiscing elit.</span> </p>
+                    <span>57 route du Chauffaut, 04000, Digne-les-Bains<br>
+                          Provence-Alpes-Côte d'Azur, Alpes-de-Haute-Provence<br>
+                          04 92 30 58 00</span> </p>
                   </div>
                 </div>
                 

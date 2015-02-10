@@ -8,22 +8,22 @@
     <nav>
       <ul>
         <li>
-          <a href="../faqs.shtml">FAQs</a>
+          <a href="../faqs/index.shtml">FAQs</a>
         </li>
         <li>
-          <a href="../comment-adherer.shtml">Comment adhérer ?</a>
+          <a href="../comment-adherer/index.shtml">Comment adhérer ?</a>
         </li>
         <li>
-          <a href="../contact-us.shtml">Contact</a>
+          <a href="../contact/index.shtml">Contact</a>
         </li>
         <li>
-          <a href="../termes-et-conditions.shtml">Termes et Conditions</a>
+          <a href="../termes-et-conditions/index.shtml">Termes et Conditions</a>
         </li>
       </ul>
     </nav>
     <div class="copyright">
       <p>&copy; Copyright 2015 TLC Marketing</p>
-      <a href="http://www.tlcmarketing.com/">
+      <a href="http://www.tlcmarketing.com/" target="_blank">
         <img src="../img/base/powered.png" alt="Powered by TLC Marketing">
       </a>
     </div>

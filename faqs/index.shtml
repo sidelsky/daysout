@@ -12,8 +12,8 @@
 
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-  <link rel="stylesheet" href="css/screen.css">
-  <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+  <link rel="stylesheet" href="../css/screen.css">
+  <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
 
 </head>
 <body>
@@ -26,8 +26,8 @@
   <div class="inner max-width">
     <div class="days-out-logo">
       <div class="days-out-logo_inner">
-        <a href="file:///Macintosh HD/Users/sidelsky/Dropbox/www/index.shtml">
-          <img src="img/base/days-out-logo.png" alt="National Days Out" class="logo">
+        <a href="../index/index.shtml">
+          <img src="../img/base/days-out-logo.png" alt="National Days Out" class="logo">
         </a>
       </div>
     </div>
@@ -42,7 +42,7 @@
 
         <h1>FAQs</h1>
 
-        <h2>Fairytales take flight across 5 incredible lands filled with classic attractions, shows and street parades. Rub shoulders with swashbuckling pirates, zoom through time and space and look on in awe at the unforgettable firework and light displays over Sleeping Beauty Castle.</h2>
+        <!-- <h2>Fairytales take flight across 5 incredible lands filled with classic attractions, shows and street parades. Rub shoulders with swashbuckling pirates, zoom through time and space and look on in awe at the unforgettable firework and light displays over Sleeping Beauty Castle.</h2> -->
 
         <div class="cssmenu faq">
           <ol>
@@ -236,8 +236,6 @@
 
 
 
-
-
                         </div>
                       </div>
                     </section>
@@ -245,8 +243,9 @@
 
                   </div>
 
-                  <!--#include file="partials/logos.shtml"-->
-                  <!--#include file="partials/footer.shtml"-->
+
+
+<!--#include virtual="../partials/footer.shtml"-->
 
                   <!-- / End content here -->
 

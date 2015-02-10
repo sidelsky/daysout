@@ -1,12 +1,12 @@
 <section class="logos-container">
   <div class="logos">
     <div>
-      <a href="../partners/aquarium-de-saint-malo.shtml">
+      <a href="../partners/grand-aquarium-de-paris.shtml">
         <img src="../img/partners/aquarium-de-paris/aquarium.png" alt="" class="slider-image">
       </a>
     </div>
     <div>
-      <a href="../partners/grand-aquarium-de-paris.shtml">
+      <a href="../partners/aquarium-de-saint-malo.shtml">
         <img src="../img/partners/aquarium-de-saint-malo/grand-aquarium.png" alt="" class="slider-image">
       </a>
     </div>

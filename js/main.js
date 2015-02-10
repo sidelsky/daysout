@@ -255,6 +255,7 @@ $('.logos').slick({
   {
     breakpoint: 480,
     settings: {
+      dots: false,
       arrows: false,
       centerMode: true,
       centerPadding: '0px',
@@ -390,13 +391,13 @@ $(document).ready(function(){
  }
 
  function do_full_map(){
-  var get_header_height = $(".template-header").outerHeight(),
-  get_footer_height = $(".footer-container").outerHeight(),
-  get_combined_height = get_footer_height + get_header_height;
+  var get_header_height = $(".template-header").outerHeight();
+  //get_footer_height = $(".footer-container").outerHeight(),
+  //get_combined_height = get_footer_height + get_header_height;
 
-  $('.large-map').css('height', window.innerHeight - get_combined_height);
+  $('.large-map').css('height', window.innerHeight - get_header_height);
 
-  console.log(get_combined_height);
+  //console.log(get_combined_height);
 }
 
 $( window ).resize(function() {

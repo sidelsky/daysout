@@ -25,7 +25,7 @@
         <div class="inner max-width">
           <div class="days-out-logo">
             <div class="days-out-logo_inner">
-              <a href="../index.shtml">
+              <a href="../index/index.shtml">
                 <img src="../img/base/days-out-logo.png" alt="National Days Out" class="logo">
               </a>
             </div>
@@ -53,7 +53,7 @@
                 <!-- Partner title -->
                 <h1>Laser Quest</h1>
                 <!-- Partner description -->
-                <p class="details no-margin">Dans votre magasin PICWIC, découvrez ou perfectionnez-vous<br>
+                <p class="details no-margin">
                   <!-- Address details -->
                   <span>77777 Marne-la-Vallee, France lorem ipsum dolor sit amet, consectetuer adipiscing elit.</span>
                 </p>

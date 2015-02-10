@@ -12,8 +12,8 @@
 
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-  <link rel="stylesheet" href="css/screen.css">
-  <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+  <link rel="stylesheet" href="../css/screen.css">
+  <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
 
 </head>
 <body>
@@ -30,7 +30,7 @@ data-top-bottom="background-position:center 100px;"
   <div class="days-out-logo">
     <div class="days-out-logo_inner">
       <a href="index.shtml">
-        <img src="img/base/days-out-logo.png" alt="National Days Out" class="logo">
+        <img src="../img/base/days-out-logo.png" alt="National Days Out" class="logo">
       </a>
     </div>
   </div>
@@ -53,7 +53,7 @@ data-top-bottom="background-position:center 100px;"
         <h1>Bienvenue ! Votre activité vous attend !</h1>
         <form action="" name="code-detail" id="sigin-in_form">
           <input type="text" placeholder="Veuillez entrer votre code ici" name="code" id="code">
-          <input type="image" src="img/base/submit.png" name="Submit" id="submit">
+          <input type="image" src="../img/base/submit.png" name="Submit" id="submit">
         </form>
       </div>
     </div>
@@ -75,7 +75,7 @@ data-top-bottom="background-position:center 100px;"
     <li class="search">
       <div class="inner">
         <i>
-          <img src="img/icons/search.png" alt="Search"
+          <img src="../img/icons/search.png" alt="Search"
           data-bottom-top="opacity:0; transform:translateY(-90px)"
           data-top-top="opacity:1; transform:translateY(0px)"
           data-anchor-target="#steps"
@@ -89,7 +89,7 @@ data-top-bottom="background-position:center 100px;"
     <li class="choose">
       <div class="inner">
         <i>
-          <img src="img/icons/choose.png" alt="Choose"
+          <img src="../img/icons/choose.png" alt="Choose"
           data-bottom-top="opacity:0; transform:translateY(-60px)"
           data-top-top="opacity:1; transform:translateY(0px)"
           data-anchor-target="#steps"
@@ -103,7 +103,7 @@ data-top-bottom="background-position:center 100px;"
     <li class="enjoy">
       <div class="inner">
         <i>
-          <img src="img/icons/enjoy.png" alt="Enjoy"
+          <img src="../img/icons/enjoy.png" alt="Enjoy"
           data-bottom-top="opacity:0; transform:translateY(-30px)"
           data-top-top="opacity:1; transform:translateY(0px)"
           data-anchor-target="#steps"
@@ -189,7 +189,7 @@ data-top-bottom="background-position:center 100px;"
     <!-- Slide -->
     <div class="slide">
       <div class="inner">
-        <a href="partners/blue-green.shtml" class="w50 first">
+        <a href="../partners/blue-green.shtml" class="w50 first">
           <div class="slider-content-container">
             <h4>Blue Green, des golfs engagés</h4>
             <p>Regroupant sous une même enseigne les anciens golfs Blue Green et Formule Golf</p>
@@ -197,37 +197,37 @@ data-top-bottom="background-position:center 100px;"
             <div class="slider-image-wrapper"></div>
             <img src="../img/partners/blue-green/featured-blue-green.jpg" alt="Blue Green" class="slider-image">
         </a>
-        <a href="partners/ngf-golf.shtml" class="w50 last">
+        <a href="../partners/ngf-golf.shtml" class="w50 last">
           <div class="slider-content-container">
             <h4>NGF Golf</h4>
             <p>Créé 2007 NGF Golf propose la pratique du golf accessible</p>
           </div>
           <div class="slider-image-wrapper"></div>
-            <img src="img/partners/ngf/featured-ngf.jpg" alt="NGF Golf" class="slider-image">
+            <img src="../img/partners/ngf/featured-ngf.jpg" alt="NGF Golf" class="slider-image">
         </a>
-        <a href="partners/baladenigm.shtml" class="w33 first">
+        <a href="../partners/baladenigm.shtml" class="w33 first">
           <div class="slider-content-container">
             <h4>Balad Enigm</h4>
             <p>Un BaladEnigm, c'est un jeu de piste d'un genre nouveau dans différentes villes de France</p>
           </div>
           <div class="slider-image-wrapper"></div>
-            <img src="img/partners/baladenigm/featured-baladenigm.jpg" alt="Balad Enigm" class="slider-image">
+            <img src="../img/partners/baladenigm/featured-baladenigm.jpg" alt="Balad Enigm" class="slider-image">
         </a>
-        <a href="partners/cirque-maximum.shtml" class="w33">
+        <a href="../partners/cirque-maximum.shtml" class="w33">
           <div class="slider-content-container">
             <h4>Cirque Maximum</h4>
             <p>Un spectacle pour le plaisir des petits mais aussi des grands!</p>
           </div>
           <div class="slider-image-wrapper"></div>
-            <img src="img/partners/cirque-maximum/featured-maximum.jpg" alt="Cirque Maximum" class="slider-image">
+            <img src="../img/partners/cirque-maximum/featured-maximum.jpg" alt="Cirque Maximum" class="slider-image">
         </a>
-        <a href="partners/laser-quest.shtml" class="w33 last">
+        <a href="../partners/laser-quest.shtml" class="w33 last">
           <div class="slider-content-container">
             <h4>Laser Quest</h4>
             <p>Petits & grands venez découvrir l'univers captivant du Laser Quest !</p>
           </div>
           <div class="slider-image-wrapper"></div>
-            <img src="img/partners/laser-quest/featured-laser-quest.jpg" alt="Laser Quest" class="slider-image">
+            <img src="../img/partners/laser-quest/featured-laser-quest.jpg" alt="Laser Quest" class="slider-image">
         </a>
       </div>
     </div>
@@ -236,7 +236,7 @@ data-top-bottom="background-position:center 100px;"
     <!-- Slide -->
     <div class="slide">
       <div class="inner">
-      <a href="/partners/bowlingstar.shtml" class="w33 first">
+      <a href="../partners/bowlingstar.shtml" class="w33 first">
           <div class="slider-content-container">
             <h4>Bowlingstar</h4>
             <p>BOWLINGSTAR, pour vos sorties en famille ou entre amis</p>
@@ -244,7 +244,7 @@ data-top-bottom="background-position:center 100px;"
           <div class="slider-image-wrapper"></div>
             <img src="../img/partners/bowlingstar/featured-bowlingstar.jpg" alt="Bowlingstar" class="slider-image">
         </a>
-        <a href="partners/picwic.shtml" class="w33">
+        <a href="../partners/picwic.shtml" class="w33">
           <div class="slider-content-container">
             <h4>Picwic</h4>
             <p>Dans votre magasin PICWIC, découvrez ou perfectionnez-vous en loisirs créatifs</p>
@@ -252,7 +252,7 @@ data-top-bottom="background-position:center 100px;"
           <div class="slider-image-wrapper"></div>
             <img src="../img/partners/picwic/featured-picwic.jpg" alt="Picwic" class="slider-image">
         </a>
-        <a href="partners/grand-aquarium-de-paris.shtml" class="w33 last">
+        <a href="../partners/grand-aquarium-de-paris.shtml" class="w33 last">
           <div class="slider-content-container">
             <h4>Aquarium de Paris</h4>
             <p>Dans les jardins du Trocadéro</p>
@@ -260,7 +260,7 @@ data-top-bottom="background-position:center 100px;"
           <div class="slider-image-wrapper"></div>
             <img src="../img/partners/aquarium-de-paris/feautured-aquarium-de-paris.jpg" alt="Aquarium de Paris" class="slider-image">
         </a>
-        <a href="partners/goolfy.shtml" class="w50 first">
+        <a href="../partners/goolfy.shtml" class="w50 first">
           <div class="slider-content-container">
             <h4>Goolfy</h4>
             <p>Goolfy est un tout nouveau concept de loisirs</p>
@@ -268,13 +268,13 @@ data-top-bottom="background-position:center 100px;"
           <div class="slider-image-wrapper"></div>
             <img src="../img/partners/goolfy/featured-goolfy.jpg" alt="Goolfy" class="slider-image">
         </a>
-        <a href="partners/aquarium-de-saint-malo.shtml" class="w50 last">
+        <a href="../partners/aquarium-de-saint-malo.shtml" class="w50 last">
           <div class="slider-content-container">
             <h4>Aquarium de Saint Malo</h4>
             <p>Excepturi quae quod velit mollitia odio earum neque porem ipsum dolor sit amet.</p>
           </div>
           <div class="slider-image-wrapper"></div>
-            <img src="img/partners/aquarium-de-saint-malo/featured-aquarium-de-saint-malo.jpg" alt="Aquarium de Saint Malo" class="slider-image">
+            <img src="../img/partners/aquarium-de-saint-malo/featured-aquarium-de-saint-malo.jpg" alt="Aquarium de Saint Malo" class="slider-image">
         </a>
       </div>
     </div>
@@ -284,7 +284,7 @@ data-top-bottom="background-position:center 100px;"
         <!-- Slide -->
     <div class="slide">
       <div class="inner">
-        <a href="partners/ecopark-adventures.shtml" class="w50 first">
+        <a href="../partners/france-adventures.shtml" class="w50 first">
           <div class="slider-content-container">
             <h4>France Aventures</h4>
             <p>Dotés d'une offre complète, nos 6 parcs multi-activités</p>
@@ -292,38 +292,38 @@ data-top-bottom="background-position:center 100px;"
             <div class="slider-image-wrapper"></div>
             <img src="../img/partners/france-aventures/featured-france-aventures.jpg" alt="France Aventures" class="slider-image">
         </a>
-        <a href="partners/france-miniature.shtml" class="w50 last">
+        <a href="../partners/france-miniature.shtml" class="w50 last">
           <div class="slider-content-container">
             <h4>France Miniature</h4>
             <p>Découvrez toute la France comme vous ne l’avez jamais</p>
           </div>
           <div class="slider-image-wrapper"></div>
-            <img src="img/partners/france-miniature/featured-france-miniature.jpg" alt="France Miniature" class="slider-image">
+            <img src="../img/partners/france-miniature/featured-france-miniature.jpg" alt="France Miniature" class="slider-image">
         </a>
         <!-- need more -->
-        <a href="partners/kidzy.shtml" class="w33 first">
+        <a href="../partners/kidzy.shtml" class="w33 first">
           <div class="slider-content-container">
             <h4>Kidzy</h4>
             <p>Un BaladEnigm, c'est un jeu de piste d'un genre nouveau dans différentes villes de France</p>
           </div>
           <div class="slider-image-wrapper"></div>
-            <img src="img/partners/kidz/featured-kidzy.jpg" alt="Kidzy" class="slider-image">
+            <img src="../img/partners/kidz/featured-kidzy.jpg" alt="Kidzy" class="slider-image">
         </a>
-        <a href="partners/vertical-aventure.shtml" class="w33">
+        <a href="../partners/vertical-adventure.shtml" class="w33">
           <div class="slider-content-container">
             <h4>Vertical Aventure</h4>
             <p>Un spectacle pour le plaisir des petits mais aussi des grands!</p>
           </div>
           <div class="slider-image-wrapper"></div>
-            <img src="img/partners/vertical/featured-vertical-aventure.jpg" alt="Vertical Aventure" class="slider-image">
+            <img src="../img/partners/vertical/featured-vertical-aventure.jpg" alt="Vertical Aventure" class="slider-image">
         </a>
-        <a href="partners/laser-quest.shtml" class="w33 last">
+        <a href="../partners/ecopark-adventures.shtml" class="w33 last">
           <div class="slider-content-container">
-            <h4>Laser Quest</h4>
+            <h4>Ecopark Adventures</h4>
             <p>Petits & grands venez découvrir l'univers captivant du Laser Quest !</p>
           </div>
           <div class="slider-image-wrapper"></div>
-            <img src="img/partners/laser-quest/featured-laser-quest.jpg" alt="Laser Quest" class="slider-image">
+            <img src="../img/partners/ecopark-adventures/featured-eco-aventures.jpg" alt="Ecopark Adventures" class="slider-image">
         </a>
       </div>
     </div>
@@ -333,10 +333,9 @@ data-top-bottom="background-position:center 100px;"
 </section>
 
 
+<!--#include virtual="../partials/logos.shtml"-->
 
-<!--#include file="partials/logos.shtml"-->
-
-<!--#include file="partials/footer.shtml"-->
+<!--#include virtual="../partials/footer.shtml"-->
 
 
 <!-- / End content here -->

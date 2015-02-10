@@ -25,7 +25,7 @@
   <div class="inner max-width">
     <div class="days-out-logo">
       <div class="days-out-logo_inner">
-        <a href="../index.shtml">
+        <a href="../index/index.shtml">
           <img src="../img/base/days-out-logo.png" alt="National Days Out" class="logo">
         </a>
       </div>
@@ -53,7 +53,7 @@
             <!-- Partner title -->
             <h1>Cirque Maximum</h1>
             <!-- Partner description -->
-            <p class="details no-margin">NGF Golf propose la pratique du golf accessible<br>
+            <p class="details no-margin">
             <!-- Address details -->
             <span>77777 Marne-la-Vallee, France lorem ipsum dolor sit amet, consectetuer adipiscing elit.</span>
             </p>
@@ -88,6 +88,7 @@
                 <a href="http://www.cirque-maximum.com" target="_blank">cirque-maximum.com</a>
               </span>
             </p>
+            <!-- <h3>Location</h3> -->
         </div>
       </div>
     </div>
