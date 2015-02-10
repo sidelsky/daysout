@@ -223,9 +223,9 @@
               </div>
             </section>
             <div class="inner-pt-pd">
-              <section class="max-width">
+              <div class="max-width">
                 <h3 class="inner-h3">Galerie</h3>
-              </section>
+              </div>
               <section class="image-gallery-container">
                 <div class="image-gallery">
                   <div> <img src="../img/partners/goolfy/slider-goolfy-003.jpg" alt="Goolfy"> </div>

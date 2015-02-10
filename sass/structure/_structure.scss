@@ -686,6 +686,7 @@
 }
 
 .image-gallery-container {
+	//@extend %bdr;
 	@include clearfix;
 	width: 100%;
 	.image-gallery {
@@ -701,7 +702,7 @@
 
 .inner-h3 {
 	@include breakpoint($large){
-		@include span(12 or 12);
+		//@include span(12 or 12);
 	}
 }
 
