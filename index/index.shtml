@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title></title>
+  <title>Days out</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -23,8 +23,8 @@
 
 <!-- Content here -->
 <header class="main-header"
-data-top-top="background-position:center 0px;"
-data-top-bottom="background-position:center 100px;"
+  data-top-top="background-position:center 0px;"
+  data-top-bottom="background-position:center 100px;"
 >
 <div class="main-header_inner">
   <div class="days-out-logo">
@@ -34,6 +34,7 @@ data-top-bottom="background-position:center 100px;"
       </a>
     </div>
   </div>
+
   <!-- Sign in -->
   <div class="sign-in">
     <ul class="tabs">
@@ -62,59 +63,63 @@ data-top-bottom="background-position:center 100px;"
 </div>
 </header>
 
+<div id="blanket"></div>
+
 <section class="how-it-works" id="steps">
-  <div class="content-inner inner-padding">
-    <h2>Nous avons rassemblé pour vous des centaines de loisirs fabuleux. De la séance de golf fun à des visites de villes, vous allez découvrir une multitude de divertissements de qualité et des partenaires qui n’attendent qu’une chose … être explorés !</h2>
-  </div>
+  <div class="padding">
+    <div class="content-inner inner-padding">
+      <h2>Nous avons rassemblé pour vous des centaines de loisirs fabuleux. De la séance de golf fun à des visites de villes, vous allez découvrir une multitude de divertissements de qualité et des partenaires qui n’attendent qu’une chose … être explorés !</h2>
+    </div>
 
-  <div class="small-titles inner-padding">
-    <h3>Comment choisir mon activité ? C’est très simple !</h3>
-  </div>
+    <div class="small-titles inner-padding">
+      <h3>Comment choisir mon activité ? C’est très simple !</h3>
+    </div>
 
-  <ul class="content-inner steps inner-padding">
-    <li class="search">
-      <div class="inner">
-        <i>
-          <img src="../img/icons/search.png" alt="Search"
-          data-bottom-top="opacity:0; transform:translateY(-90px)"
-          data-top-top="opacity:1; transform:translateY(0px)"
-          data-anchor-target="#steps"
-          >
-        </i>
-        <h1>Recherchez</h1>
-        <p>ce qui vous plairait le plus parmi notre liste de fantastiques partenaires !</p>
-      </div>
-      <div class="arrow-right"></div>
-    </li>
-    <li class="choose">
-      <div class="inner">
-        <i>
-          <img src="../img/icons/choose.png" alt="Choose"
-          data-bottom-top="opacity:0; transform:translateY(-60px)"
-          data-top-top="opacity:1; transform:translateY(0px)"
-          data-anchor-target="#steps"
-          >
-        </i>
-        <h1>Sélectionnez</h1>
-        <p>l’activité de votre choix !</p>
-      </div>
-      <div class="arrow-right"></div>
-    </li>
-    <li class="enjoy">
-      <div class="inner">
-        <i>
-          <img src="../img/icons/enjoy.png" alt="Enjoy"
-          data-bottom-top="opacity:0; transform:translateY(-30px)"
-          data-top-top="opacity:1; transform:translateY(0px)"
-          data-anchor-target="#steps"
-          >
-        </i>
-        <h1>Profitez</h1>
-        <p>Présentez votre bon cadeau à notre partenaire pour profiter de votre activité!</p>
-      </div>
-      <div class="arrow-right"></div>
-    </li>
-  </ul>
+    <ul class="content-inner steps inner-padding">
+      <li class="search">
+        <div class="inner">
+          <i>
+            <img src="../img/icons/search.png" alt="Search"
+            data-bottom-top="opacity:0; transform:translateY(-90px)"
+            data-top-top="opacity:1; transform:translateY(0px)"
+            data-anchor-target="#steps"
+            >
+          </i>
+          <h1>Recherchez</h1>
+          <p>ce qui vous plairait le plus parmi notre liste de fantastiques partenaires !</p>
+        </div>
+        <div class="arrow-right"></div>
+      </li>
+      <li class="choose">
+        <div class="inner">
+          <i>
+            <img src="../img/icons/choose.png" alt="Choose"
+            data-bottom-top="opacity:0; transform:translateY(-60px)"
+            data-top-top="opacity:1; transform:translateY(0px)"
+            data-anchor-target="#steps"
+            >
+          </i>
+          <h1>Sélectionnez</h1>
+          <p>l’activité de votre choix !</p>
+        </div>
+        <div class="arrow-right"></div>
+      </li>
+      <li class="enjoy">
+        <div class="inner">
+          <i>
+            <img src="../img/icons/enjoy.png" alt="Enjoy"
+            data-bottom-top="opacity:0; transform:translateY(-30px)"
+            data-top-top="opacity:1; transform:translateY(0px)"
+            data-anchor-target="#steps"
+            >
+          </i>
+          <h1>Profitez</h1>
+          <p>Présentez votre bon cadeau à notre partenaire pour profiter de votre activité!</p>
+        </div>
+        <div class="arrow-right"></div>
+      </li>
+    </ul>
+  </div>
 </section>
 
 <section class="search-container">

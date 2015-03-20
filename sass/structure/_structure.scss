@@ -1,3 +1,15 @@
+#blanket {
+	background: $black;
+	@include opacity(.6);
+	z-index: 4;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	//display: none;
+}
+
 #info {
 	position: fixed;
 	top: 0px;
@@ -35,6 +47,8 @@
 }
 
 .main-header {
+	position: relative;
+	z-index: 5;
 	background: url(../img/header-image.jpg) no-repeat center center;
 	//background-size: cover;
 	@include rhythm(0, 0, 2, 0);
@@ -72,6 +86,7 @@
 	@include clearfix;
 	//@extend %bdr;
 	.tabs {
+		display: none;
 		@include container;
 		////@extend %bdr;
 		@include clearfix;
@@ -138,8 +153,11 @@
 
 .how-it-works {
 	background: url(../img/base/pattern.jpg) no-repeat center center;
-	min-height: 300px;
-	@include rhythm(0, 3, 3, 0);
+	//min-height: 300px;
+	//@include rhythm(0, 3, 3, 0);
+	.padding {
+		@include rhythm(0, 3, 3, 0);
+	}
 }
 
 .content-inner {
