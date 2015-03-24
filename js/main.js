@@ -549,8 +549,7 @@ map_link.hover(
     $(this).parent().children('.fa-map-marker').addClass('animated bounce');
   }, function() {
     $(this).parent().children('.fa-map-marker').removeClass('animated bounce');
-  }
-  );
+  });
 
 
 var hover_container = $('.inner a'),
@@ -570,7 +569,8 @@ do_image_slider();
 do_full_map();
 
 
-var steps = $('#steps').hide(),
+var steps = $('#steps'),
+    //steps = $('#steps').hide(),
     submit = $('input#submit'),
     sign_in = $('.sign-in'),
     blanket = $('#blanket'),
@@ -578,7 +578,6 @@ var steps = $('#steps').hide(),
     easing = 'swing';
 
 submit.click(function(event) {
-  /* Act on the event */
   sign_in.slideUp(speed, easing, function(){
     steps.slideDown(speed, easing, function() {
       blanket.fadeOut(speed, easing);
